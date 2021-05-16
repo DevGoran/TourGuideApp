@@ -16,7 +16,7 @@
         <ImageView
             style="@style/city_banner_fragment"
             android:src="@drawable/vancouver_fragment"
-            tools:ignore="ContentDescription" />
+            android:importantForAccessibility="no" />
 
         <!-- Vancouver header. -->
         <TextView
@@ -43,7 +43,7 @@
                 android:id="@+id/website_tourism_vancouver"
                 style="@style/channels_icon_style"
                 android:src="@drawable/ic_world_wide_web"
-                tools:ignore="ContentDescription" />
+                android:importantForAccessibility="no" />
 
             <TextView
                 android:id="@+id/tourism_vancouver_website_textView"
@@ -61,7 +61,7 @@
                 android:id="@+id/twitter_vancouver"
                 style="@style/channels_icon_style"
                 android:src="@drawable/ic__43_twitter"
-                tools:ignore="ContentDescription" />
+                android:importantForAccessibility="no" />
 
             <TextView
                 style="@style/channels_textview_style"
@@ -78,7 +78,7 @@
                 android:id="@+id/instagram_vancouver"
                 style="@style/channels_icon_style"
                 android:src="@drawable/ic__25_instagram"
-                tools:ignore="ContentDescription" />
+                android:importantForAccessibility="no" />
 
             <TextView
                 style="@style/channels_textview_style"
@@ -95,7 +95,7 @@
                 android:id="@+id/facebook_vancouver"
                 style="@style/channels_icon_style"
                 android:src="@drawable/ic__21_facebook"
-                tools:ignore="ContentDescription" />
+                android:importantForAccessibility="no" />
 
             <TextView
                 style="@style/channels_textview_style"

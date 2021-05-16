@@ -57,7 +57,7 @@ public class ActivitiesFragment extends Fragment {
         listView.setAdapter(adapter);
 
         // onItemClickListener with "dummy" code inside -> "Imagine this would open a website or another activity! :)"
-        listView.setOnItemClickListener((parent, view, position, id) -> Toast.makeText(getActivity(), "Imagine this would open a website or another activity! :)", Toast.LENGTH_SHORT).show());
+        listView.setOnItemClickListener((parent, view, position, id) -> Toast.makeText(getActivity(), getString(R.string.toast_message_fragments), Toast.LENGTH_SHORT).show());
 
         // Inflate the layout for this fragment.
         return rootView;

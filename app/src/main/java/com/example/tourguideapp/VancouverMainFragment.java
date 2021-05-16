@@ -34,25 +34,25 @@ public class VancouverMainFragment extends Fragment {
         // in order to open a website by using an Intent.
         LinearLayout vancouverWebsite = view.findViewById(R.id.website_vancouver_linear_view);
         vancouverWebsite.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://www.tourismvancouver.com/"))));
+                Uri.parse(getString(R.string.vancouver_website_url)))));
 
         // Get LinearLayout with the ID twitter_vancouver_linear_view and set an OnClickListener
         // in order to open a website by using an Intent.
         LinearLayout vancouverTwitter = view.findViewById(R.id.twitter_vancouver_linear_view);
         vancouverTwitter.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://twitter.com/myvancouver"))));
+                Uri.parse(getString(R.string.vancouver_twitter_url)))));
 
         // Get LinearLayout with the ID instagram_vancouver_linear_view and set an OnClickListener
         // in order to open a website by using an Intent.
         LinearLayout vancouverInstagram = view.findViewById(R.id.instagram_vancouver_linear_view);
         vancouverInstagram.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://www.instagram.com/inside_vancouver/"))));
+                Uri.parse(getString(R.string.vancouver_instagram_url)))));
 
         // Get LinearLayout with the ID facebook_vancouver_linear_view and set an OnClickListener
         // in order to open a website by using an Intent.
         LinearLayout vancouverFacebook = view.findViewById(R.id.facebook_vancouver_linear_view);
         vancouverFacebook.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://www.facebook.com/insidevancouver/"))));
+                Uri.parse(getString(R.string.vancouver_facebook_url)))));
 
         // Inflate the layout for this fragment.
         return view;

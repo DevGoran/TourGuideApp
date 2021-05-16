@@ -27,16 +27,16 @@ public class MainActivity extends AppCompatActivity {
         ImageView torontoBanner = findViewById(R.id.toronto_banner);
         // The code in this method will be executed when Toronto is clicked on.
         torontoBanner.setOnClickListener(view ->
-                Toast.makeText(MainActivity.this, "Just decoration, for now :)", Toast.LENGTH_SHORT).show());
+                Toast.makeText(MainActivity.this, getString(R.string.toast_message_main_activity), Toast.LENGTH_SHORT).show());
 
         ImageView saskatoonBanner = findViewById(R.id.saskatoon_banner);
         // The code in this method will be executed when Saskatoon is clicked on.
         saskatoonBanner.setOnClickListener(view ->
-                Toast.makeText(MainActivity.this, "Just decoration, for now :)", Toast.LENGTH_SHORT).show());
+                Toast.makeText(MainActivity.this, getString(R.string.toast_message_main_activity), Toast.LENGTH_SHORT).show());
 
         ImageView stJohnsBanner = findViewById(R.id.st_johns_banner);
         // The code in this method will be executed when St. Johns is clicked on.
         stJohnsBanner.setOnClickListener(view ->
-                Toast.makeText(MainActivity.this, "Just decoration, for now :)", Toast.LENGTH_SHORT).show());
+                Toast.makeText(MainActivity.this, getString(R.string.toast_message_main_activity), Toast.LENGTH_SHORT).show());
     }
 }
