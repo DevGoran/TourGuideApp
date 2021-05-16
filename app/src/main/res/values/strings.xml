@@ -1,21 +1,28 @@
 <resources>
+    <!-- General strings. -->
     <string name="app_name">Tour Guide App</string>
-    <string name="vancouver">Vancouver</string>
-    <string name="vancouver_underline"><u>Vancouver</u></string>
+    <string name="toast_message_fragments">Imagine this would open a website or another activity! :)</string>
+    <string name="toast_message_main_activity">Just decoration, for now :)</string>
+    <string name="official_channels">Official Channels</string>
+
+    <!-- Tab category strings. -->
     <string name="category_food">Restaurants</string>
     <string name="category_activities">Activities</string>
     <string name="category_attractions">Attractions</string>
     <string name="category_coffee">Cafe</string>
+
+    <!-- Vancouver strings and introduction. -->
+    <string name="vancouver">Vancouver</string>
+    <string name="vancouver_underline"><u>Vancouver</u></string>
     <string name="tourism_vancouver">Tourism Vancouver</string>
     <string name="inside_vancouver">Inside Vancouver</string>
-    <string name="official_channels">Official Channels</string>
     <string name="vancouver_introduction">Vancouver, great choice! Make sure to pack your rain coats and umbrellas. They call it Raincouver for a reason.  \n\n\n <b>6 things to know about Vancouver:  </b>\n\n<b>1.</b> You can find people from everywhere. By the end of the day, you might have friends from 10 different countries. \n\n<b>2.</b> Vancouver is obsessed with sports, HAPPY HOUR, ramen and sushi. But obviously you can find delicious food from any cuisine, even vegetarian and vegan. \n\n<b>3.</b> Like Amsterdam, Vancouver is liberal about using recreational drugs in public, so you won’t get arrested if you use them (you need to be 19+). \n\n<b>4.</b> Movies like Godzilla, Deadpool, Twilight, and TV-Shows such as Supernatural, Riverdale and Arrow were filmed there. They are constantly filming, so you will probably see famous actors at some point *Fingers crossed, Ryan Reynolds*. \n\n<b>5.</b> You don’t need to rent a car in Vancouver. You can get around by SkyTrain, bus, renting a bicycle, and most importantly by walking, we walk a lot. \n\n<b>6.</b> The city has been ranked one of the most livable cities in the world for more than a decade. \n\n\n Swipe to the left to find some recommendations! ;)</string>
+
+    <!-- Vancouver URL strings. -->
     <string name="vancouver_twitter_url">https://twitter.com/myvancouver</string>
     <string name="vancouver_instagram_url">https://www.instagram.com/inside_vancouver/</string>
     <string name="vancouver_website_url">https://www.tourismvancouver.com/</string>
     <string name="vancouver_facebook_url">https://www.facebook.com/insidevancouver/</string>
-    <string name="toast_message_main_activity">Just decoration, for now :)</string>
-    <string name="toast_message_fragments">Imagine this would open a website or another activity! :)</string>
 
     <!-- VancouverRestaurantFragment ArrayList strings. -->
     <string name="frankies_italian_kitchen">Frankie\'s Italian Kitchen</string>
