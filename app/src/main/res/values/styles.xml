@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for banners on main screen. -->
+    <style name="main_banner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_banner_height</item>
+        <item name="android:paddingTop">@dimen/main_banner_padding</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for TextViews in "official channels" section on the main screen of each city. -->
+    <style name="channels_textview_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/channels_textview_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/channels_textview_style_margin_start</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/channels_textview_textSize</item>
+    </style>
+
+    <!-- Style for icon's in "official channels" section on the main screen of each city. -->
+    <style name="channels_icon_style">
+        <item name="android:layout_width">@dimen/channels_icon_size</item>
+        <item name="android:layout_height">@dimen/channels_icon_size</item>
+    </style>
+
+    <!-- Style for LinearLayout in "official channels" section on the main screen of each city. -->
+    <style name="channels_linear_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/channels_linear_layout_style_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/channels_linear_layout_style_margin_start
+        </item>
+        <item name="android:layout_marginEnd">@dimen/channels_linear_layout_style_margin_end</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Style for city description on the main screen for each city. -->
+    <style name="vancouver_description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/vancouver_description_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/vancouver_description_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/vancouver_description_margin_end</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Style for "official channels" header on the main screen of each city. -->
+    <style name="official_channels">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/official_channels_header_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/official_channels_header_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/official_channels_header_margin_end</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/official_channels_text_size</item>
+    </style>
+
+    <!-- Style for the header on the main screen of each city. -->
+    <style name="city_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/city_header_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/city_header_margin_start</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/city_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for each city's banner in each activity -->
+    <style name="city_banner_fragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/city_banner_fragment_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+</resources>

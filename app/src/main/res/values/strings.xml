@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="vancouver">Vancouver</string>
+    <string name="vancouver_underline"><u>Vancouver</u></string>
+    <string name="category_food">Restaurants</string>
+    <string name="category_activities">Activities</string>
+    <string name="category_attractions">Attractions</string>
+    <string name="category_coffee">Cafe</string>
+    <string name="tourism_vancouver">Tourism Vancouver</string>
+    <string name="inside_vancouver">Inside Vancouver</string>
+    <string name="official_channels">Official Channels</string>
+    <string name="vancouver_introduction">Vancouver, great choice! Make sure to pack your rain coats and umbrellas. They call it Raincouver for a reason.  \n\n\n <b>6 things to know about Vancouver:  </b>\n\n<b>1.</b> You can find people from everywhere. By the end of the day, you might have friends from 10 different countries. \n\n<b>2.</b> Vancouver is obsessed with sports, HAPPY HOUR, ramen and sushi. But obviously you can find delicious food from any cuisine, even vegetarian and vegan. \n\n<b>3.</b> Like Amsterdam, Vancouver is liberal about using recreational drugs in public, so you won’t get arrested if you use them (you need to be 19+). \n\n<b>4.</b> Movies like Godzilla, Deadpool, Twilight, and TV-Shows such as Supernatural, Riverdale and Arrow were filmed there. They are constantly filming, so you will probably see famous actors at some point *Fingers crossed, Ryan Reynolds*. \n\n<b>5.</b> You don’t need to rent a car in Vancouver. You can get around by SkyTrain, bus, renting a bicycle, and most importantly by walking, we walk a lot. \n\n<b>6.</b> The city has been ranked one of the most livable cities in the world for more than a decade. \n\n\n Swipe to the left to find some recommendations! ;)</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- FoodFragment ArrayList strings. -->
+    <string name="frankies_italian_kitchen">Frankie\'s Italian Kitchen</string>
+    <string name="frankies_italian_kitchen_info">Best Italian restaurant in Downtown.</string>
+    <string name="boston_pizza">Boston Pizza</string>
+    <string name="boston_pizza_info">Best location to eat and watch a game.</string>
+    <string name="joey_burrard">JOEY Burrard</string>
+    <string name="joey_burrard_info">Entire menu is fantastic. Try the Apple Pie!</string>
+    <string name="italian_kitchen">Italian Kitchen</string>
+    <string name="italian_kitchen_info">Good Italian cuisine.</string>
+    <string name="devils_elbow">Devil\'s Elbow Ale &amp; Smoke House</string>
+    <string name="devils_elbow_info">Great for meat lovers.</string>
+    <string name="patron_tacos_cantina">Patron Tacos &amp; Cantina</string>
+    <string name="patron_tacos_cantina_info">Best mexican restaurant in downtown.</string>
+    <string name="ignite_pizza">Ignite Pizzeria Express</string>
+    <string name="ignite_pizza_info">Unforgettable Pizzas and sauces.</string>
+    <string name="vancouver_lookout">Vancouver Lookout</string>
+    <string name="vancouver_lookout_info">Perfect place to have a view while eating.</string>
+    <string name="joey_bentall_one">JOEY Bentall One</string>
+    <string name="joey_bentall_one_info">It\'s JOEY, what are you waiting for?</string>
+    <string name="le_petit_belge">Le Petit Belge</string>
+    <string name="le_petit_belge_info">Good choice for breakfast.</string>
+
+    <!-- CoffeeFragment ArrayList strings. -->
+    <string name="pcr">Pacific Coffee Roasters</string>
+    <string name="pcr_info">Best tea and ambiente in downtown.</string>
+    <string name="starbucks">Starbucks</string>
+    <string name="starbucks_info">Who doesn\'t like Starbucks?</string>
+    <string name="blenz_coffe">Blenz Coffee</string>
+    <string name="blenz_coffe_info">Great Coffee</string>
+    <string name="waves_coffee">Waves Coffee House</string>
+    <string name="waves_coffee_info">They are all over the place. Give them a try.</string>
+    <string name="jj_bean">JJ Bean Coffe Roasters</string>
+    <string name="jj_bean_info">Great coffee.</string>
+    <string name="tim_hortons">Tim Hortons</string>
+    <string name="tim_hortons_info">Can\'t go wrong with Tim Hortons, eh?</string>
+    <string name="trees_organic_coffee">Trees Organic Coffee</string>
+    <string name="trees_organic_coffee_info">Great tea and atmosphere.</string>
+
+    <!-- ActivitiesFragment ArrayList strings. -->
+    <string name="climbing">Climbing</string>
+    <string name="climbing_info">Squamish is fantastic for climbing.</string>
+    <string name="skiing">Skiing</string>
+    <string name="skiing_info">Try Cypress in winter.</string>
+    <string name="cycling">Cycling</string>
+    <string name="cycling_info">Gor for a ride in Stanley Park.</string>
+    <string name="snowboarding">Snowboarding</string>
+    <string name="snowboarding_info">Try Cypress in winter.</string>
+    <string name="bungee_jumping">Bungee jumping</string>
+    <string name="bungee_jumping_info">Got to Whistler for Bungee Jumping.</string>
+    <string name="kayaking">Kayaking</string>
+    <string name="kayaking_info">Get a kayak at Granville Island.</string>
+    <string name="kitesurfing">Kitesurfing</string>
+    <string name="kitesurfing_info">Go kitesurfing at the Ambleside Beach.</string>
+    <string name="ice_skating">Ice Skating</string>
+    <string name="ice_skating_info">Go ice skating at robson square in winter.</string>
+    <string name="hiking">Hiking</string>
+    <string name="hiking_info">Try the Grouse Grind.</string>
+    <string name="skydiving">Skydiving</string>
+    <string name="skydiving_info">You can go Skydiving in Victoria.</string>
+
+    <!-- ActivitiesFragment ArrayList strings. -->
+    <string name="robson_square">Robson Square</string>
+    <string name="robson_square_info">Many public things to do and see.</string>
+    <string name="canada_place">Canada Place</string>
+    <string name="canada_place_info">Try the FlyOver Canada film experience</string>
+    <string name="granville_st">Granville St.</string>
+    <string name="granville_st_info">Nightlife</string>
+    <string name="robson_st">Robson St.</string>
+    <string name="robson_st_info">If you want to go shopping and eating.</string>
+    <string name="gastown">Gastown</string>
+    <string name="gastown_info">You won\'t regret it. promised!</string>
+    <string name="vancouver_lookout_attraction">Vancouver Lookout</string>
+    <string name="vancouver_lookout_attraction_info">For a great view.</string>
+    <string name="totem_poles">Totem Poles</string>
+    <string name="totem_poles_info">If you want to see something historic.</string>
+    <string name="van_seawall">Vancouver Seawall</string>
+    <string name="van_seawall_info">Go here for a walk.</string>
+    <string name="rogers_arena">Rogers Arena</string>
+    <string name="rogers_arena_info">Watch a game with friends or strangers.</string>
+    <string name="marine_building">Marine Building</string>
+    <string name="marine_building_info">Vancouver\'s oldest building.</string>
+</resources>

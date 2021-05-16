@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/parent_linear_layout_padding_bottom"
+        tools:context=".VancouverMainFragment">
+
+        <!-- Picture by Goran Vlacic (me). -->
+        <ImageView
+            style="@style/city_banner_fragment"
+            android:src="@drawable/vancouver_fragment"
+            tools:ignore="ContentDescription" />
+
+        <!-- Vancouver header. -->
+        <TextView
+            style="@style/city_header"
+            android:text="@string/vancouver_underline" />
+
+        <!-- Introduction to Vancouver. -->
+        <TextView
+            style="@style/vancouver_description"
+            android:text="@string/vancouver_introduction" />
+
+        <!-- Beginning of the official channel section. -->
+        <TextView
+            style="@style/official_channels"
+            android:text="@string/official_channels" />
+
+        <!-- Website. -->
+        <LinearLayout
+            android:id="@+id/website_vancouver_linear_view"
+            style="@style/channels_linear_layout_style"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/website_tourism_vancouver"
+                style="@style/channels_icon_style"
+                android:src="@drawable/ic_world_wide_web"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tourism_vancouver_website_textView"
+                style="@style/channels_textview_style"
+                android:text="@string/tourism_vancouver" />
+        </LinearLayout>
+
+        <!-- Twitter. -->
+        <LinearLayout
+            android:id="@+id/twitter_vancouver_linear_view"
+            style="@style/channels_linear_layout_style"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/twitter_vancouver"
+                style="@style/channels_icon_style"
+                android:src="@drawable/ic__43_twitter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/channels_textview_style"
+                android:text="@string/tourism_vancouver" />
+        </LinearLayout>
+
+        <!-- Instagram. -->
+        <LinearLayout
+            android:id="@+id/instagram_vancouver_linear_view"
+            style="@style/channels_linear_layout_style"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/instagram_vancouver"
+                style="@style/channels_icon_style"
+                android:src="@drawable/ic__25_instagram"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/channels_textview_style"
+                android:text="@string/inside_vancouver" />
+        </LinearLayout>
+
+        <!-- Facebook. -->
+        <LinearLayout
+            android:id="@+id/facebook_vancouver_linear_view"
+            style="@style/channels_linear_layout_style"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/facebook_vancouver"
+                style="@style/channels_icon_style"
+                android:src="@drawable/ic__21_facebook"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/channels_textview_style"
+                android:text="@string/inside_vancouver" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
