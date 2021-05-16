@@ -29,7 +29,8 @@
 
     <!-- list_item ImageView. -->
     <dimen name="list_item_icon_size">88dp</dimen>
-    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="list_item_icon_padding">16dp</dimen>
+    <dimen name="list_item_icon_margin_end">8dp</dimen>
 
     <!-- list_item LinearLayout. -->
     <dimen name="list_item_linear_layout_Start">8dp</dimen>
@@ -40,8 +41,11 @@
 
     <!-- list_item upper TextView. -->
     <dimen name="list_item_upper_text_view_height">0dp</dimen>
+    <dimen name="list_item_upper_text_view_width">0dp</dimen>
     <dimen name="list_item_upper_text_view_text_size">16sp</dimen>
+    <dimen name="list_item_upper_text_view_margin_end">16dp</dimen>
 
     <!-- list_item lower TextView. -->
     <dimen name="list_item_lower_text_view_height">0dp</dimen>
+    <dimen name="list_item_lower_text_view_width">0dp</dimen>
 </resources>
