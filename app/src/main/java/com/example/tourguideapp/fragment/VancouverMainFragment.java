@@ -1,4 +1,4 @@
-package com.example.tourguideapp;
+package com.example.tourguideapp.fragment;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import androidx.fragment.app.Fragment;
+
+import com.example.tourguideapp.R;
 
 /**
  * A {@link Fragment} subclass.

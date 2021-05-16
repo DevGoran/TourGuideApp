@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
-    <string name="title_activity_main2">MainActivity</string>
     <string name="vancouver">Vancouver</string>
     <string name="vancouver_underline"><u>Vancouver</u></string>
     <string name="category_food">Restaurants</string>
@@ -18,7 +17,7 @@
     <string name="toast_message_main_activity">Just decoration, for now :)</string>
     <string name="toast_message_fragments">Imagine this would open a website or another activity! :)</string>
 
-    <!-- FoodFragment ArrayList strings. -->
+    <!-- VancouverRestaurantFragment ArrayList strings. -->
     <string name="frankies_italian_kitchen">Frankie\'s Italian Kitchen</string>
     <string name="frankies_italian_kitchen_info">Best Italian restaurant in Downtown.</string>
     <string name="boston_pizza">Boston Pizza</string>
@@ -40,7 +39,7 @@
     <string name="le_petit_belge">Le Petit Belge</string>
     <string name="le_petit_belge_info">Good choice for breakfast.</string>
 
-    <!-- CoffeeFragment ArrayList strings. -->
+    <!-- VancouverCoffeeFragment ArrayList strings. -->
     <string name="pcr">Pacific Coffee Roasters</string>
     <string name="pcr_info">Best tea and ambiente in downtown.</string>
     <string name="starbucks">Starbucks</string>
@@ -56,7 +55,7 @@
     <string name="trees_organic_coffee">Trees Organic Coffee</string>
     <string name="trees_organic_coffee_info">Great tea and atmosphere.</string>
 
-    <!-- ActivitiesFragment ArrayList strings. -->
+    <!-- VancouverActivitiesFragment ArrayList strings. -->
     <string name="climbing">Climbing</string>
     <string name="climbing_info">Squamish is fantastic for climbing.</string>
     <string name="skiing">Skiing</string>
@@ -78,7 +77,7 @@
     <string name="skydiving">Skydiving</string>
     <string name="skydiving_info">You can go Skydiving in Victoria.</string>
 
-    <!-- ActivitiesFragment ArrayList strings. -->
+    <!-- VancouverActivitiesFragment ArrayList strings. -->
     <string name="robson_square">Robson Square</string>
     <string name="robson_square_info">Many public things to do and see.</string>
     <string name="canada_place">Canada Place</string>

@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.tourguideapp.adapter.CategoryFragmentPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 

@@ -1,4 +1,4 @@
-package com.example.tourguideapp;
+package com.example.tourguideapp.object;
 
 /**
  * It contains resource IDs for each recommendation.

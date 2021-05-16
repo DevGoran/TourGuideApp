@@ -1,4 +1,4 @@
-package com.example.tourguideapp;
+package com.example.tourguideapp.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,14 +9,18 @@ import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.tourguideapp.object.CityCategoryItem;
+import com.example.tourguideapp.adapter.CityCategoryItemAdapter;
+import com.example.tourguideapp.R;
+
 import java.util.ArrayList;
 
 /**
  * {@link Fragment} subclass.
  */
-public class ActivitiesFragment extends Fragment {
+public class VancouverActivitiesFragment extends Fragment {
 
-    public ActivitiesFragment() {
+    public VancouverActivitiesFragment() {
         // Required empty public constructor
     }
 

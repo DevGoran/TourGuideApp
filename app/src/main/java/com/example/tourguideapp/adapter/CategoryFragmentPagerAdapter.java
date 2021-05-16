@@ -1,10 +1,18 @@
-package com.example.tourguideapp;
+package com.example.tourguideapp.adapter;
 
 import android.content.Context;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+
+import com.example.tourguideapp.R;
+import com.example.tourguideapp.fragment.VancouverMainFragment;
+import com.example.tourguideapp.fragment.VancouverActivitiesFragment;
+import com.example.tourguideapp.fragment.VancouverAttractionsFragment;
+import com.example.tourguideapp.fragment.VancouverCoffeeFragment;
+import com.example.tourguideapp.fragment.VancouverRestaurantFragment;
 
 public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
 
@@ -24,18 +32,19 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
     /**
      * Return the Fragment associated with a specified position.
      **/
+    @NonNull
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
             return new VancouverMainFragment();
         } else if (position == 1) {
-            return new AttractionsFragment();
+            return new VancouverAttractionsFragment();
         } else if (position == 2) {
-            return new CoffeeFragment();
+            return new VancouverCoffeeFragment();
         } else if (position == 3) {
-            return new FoodFragment();
+            return new VancouverRestaurantFragment();
         } else {
-            return new ActivitiesFragment();
+            return new VancouverActivitiesFragment();
         }
     }
 
