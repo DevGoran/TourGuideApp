@@ -1,4 +1,4 @@
-package com.example.tourguideapp.fragment;
+package com.example.tourguideapp.fragment.vancouver;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -18,9 +18,9 @@ import java.util.ArrayList;
 /**
  * {@link Fragment} subclass.
  */
-public class VancouverCoffeeFragment extends Fragment {
+public class VancouverRestaurantFragment extends Fragment {
 
-    public VancouverCoffeeFragment() {
+    public VancouverRestaurantFragment() {
         // Required empty public constructor
     }
 
@@ -36,13 +36,16 @@ public class VancouverCoffeeFragment extends Fragment {
 
         // Create a list of CityCategoryItem's
         ArrayList<CityCategoryItem> categories = new ArrayList<>();
-        categories.add(new CityCategoryItem(R.drawable.ic_black_tea, R.string.pcr, R.string.pcr_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.starbucks, R.string.starbucks_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.blenz_coffe, R.string.blenz_coffe_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.waves_coffee, R.string.waves_coffee_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.jj_bean, R.string.jj_bean_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.tim_hortons, R.string.tim_hortons_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_black_tea, R.string.trees_organic_coffee, R.string.trees_organic_coffee_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_spaghetti, R.string.frankies_italian_kitchen, R.string.frankies_italian_kitchen_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_pizza, R.string.boston_pizza, R.string.boston_pizza_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.joey_burrard, R.string.joey_burrard_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_spaghetti, R.string.italian_kitchen, R.string.italian_kitchen_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_meat, R.string.devils_elbow, R.string.devils_elbow_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_taco, R.string.patron_tacos_cantina, R.string.patron_tacos_cantina_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_pizza, R.string.ignite_pizza, R.string.ignite_pizza_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.vancouver_lookout, R.string.vancouver_lookout_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.joey_bentall_one, R.string.joey_bentall_one_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_waffle, R.string.le_petit_belge, R.string.le_petit_belge_info));
 
         // Create an {@link CityCategoryItemAdapter}, whose data source is a list of {@link CityCategoryItem}s. The
         // adapter knows how to create list items for each item in the list.
@@ -62,10 +65,5 @@ public class VancouverCoffeeFragment extends Fragment {
 
         // Inflate the layout for this fragment.
         return rootView;
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
     }
 }

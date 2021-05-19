@@ -36,7 +36,7 @@
     </style>
 
     <!-- Style for city description on the main screen for each city. -->
-    <style name="vancouver_description">
+    <style name="city_description_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/vancouver_description_margin_top</item>

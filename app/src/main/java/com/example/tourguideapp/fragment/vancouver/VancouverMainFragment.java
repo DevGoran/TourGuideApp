@@ -1,4 +1,4 @@
-package com.example.tourguideapp.fragment;
+package com.example.tourguideapp.fragment.vancouver;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -58,6 +58,5 @@ public class VancouverMainFragment extends Fragment {
 
         // Inflate the layout for this fragment.
         return view;
-
     }
 }

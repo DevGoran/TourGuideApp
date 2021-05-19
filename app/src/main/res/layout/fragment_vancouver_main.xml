@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingBottom="@dimen/parent_linear_layout_padding_bottom"
-        tools:context=".fragment.VancouverMainFragment">
+        tools:context=".fragment.vancouver.VancouverMainFragment">
 
         <!-- Picture by Goran Vlacic (me). -->
         <ImageView
@@ -25,7 +25,7 @@
 
         <!-- Introduction to Vancouver. -->
         <TextView
-            style="@style/vancouver_description"
+            style="@style/city_description_style"
             android:text="@string/vancouver_introduction" />
 
         <!-- Beginning of the official channel section. -->
@@ -40,13 +40,11 @@
             tools:ignore="UseCompoundDrawables">
 
             <ImageView
-                android:id="@+id/website_tourism_vancouver"
                 style="@style/channels_icon_style"
                 android:src="@drawable/ic_world_wide_web"
                 android:importantForAccessibility="no" />
 
             <TextView
-                android:id="@+id/tourism_vancouver_website_textView"
                 style="@style/channels_textview_style"
                 android:text="@string/tourism_vancouver" />
         </LinearLayout>
@@ -58,7 +56,6 @@
             tools:ignore="UseCompoundDrawables">
 
             <ImageView
-                android:id="@+id/twitter_vancouver"
                 style="@style/channels_icon_style"
                 android:src="@drawable/ic__43_twitter"
                 android:importantForAccessibility="no" />
@@ -75,7 +72,6 @@
             tools:ignore="UseCompoundDrawables">
 
             <ImageView
-                android:id="@+id/instagram_vancouver"
                 style="@style/channels_icon_style"
                 android:src="@drawable/ic__25_instagram"
                 android:importantForAccessibility="no" />
@@ -92,7 +88,6 @@
             tools:ignore="UseCompoundDrawables">
 
             <ImageView
-                android:id="@+id/facebook_vancouver"
                 style="@style/channels_icon_style"
                 android:src="@drawable/ic__21_facebook"
                 android:importantForAccessibility="no" />

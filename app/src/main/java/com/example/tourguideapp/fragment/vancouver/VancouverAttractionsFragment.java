@@ -1,4 +1,4 @@
-package com.example.tourguideapp.fragment;
+package com.example.tourguideapp.fragment.vancouver;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -61,10 +61,5 @@ public class VancouverAttractionsFragment extends Fragment {
 
         // Inflate the layout for this fragment.
         return rootView;
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
     }
 }

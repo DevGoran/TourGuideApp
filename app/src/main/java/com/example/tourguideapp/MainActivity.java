@@ -31,8 +31,13 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView saskatoonBanner = findViewById(R.id.saskatoon_banner);
         // The code in this method will be executed when Saskatoon is clicked on.
-        saskatoonBanner.setOnClickListener(view ->
-                Toast.makeText(MainActivity.this, getString(R.string.toast_message_main_activity), Toast.LENGTH_SHORT).show());
+        saskatoonBanner.setOnClickListener(view -> {
+            // Create a new intent to open the {@link SaskatoonActivity}
+            Intent saskatoonIntent = new Intent(MainActivity.this, SaskatoonActivity.class);
+
+            // Start the new activity
+            startActivity(saskatoonIntent);
+        });
 
         ImageView stJohnsBanner = findViewById(R.id.st_johns_banner);
         // The code in this method will be executed when St. Johns is clicked on.
