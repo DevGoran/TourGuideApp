@@ -15,7 +15,7 @@ public class VancouverActivity extends MainActivity {
         super.onCreate(savedInstanceState);
 
         // Set the content of the activity to use the activity_main.xml layout file
-        setContentView(R.layout.activity_vancouver);
+        setContentView(R.layout.activity_city);
 
         // Find the view pager that will allow the user to swipe between fragments
         ViewPager viewPager = findViewById(R.id.viewpager);
