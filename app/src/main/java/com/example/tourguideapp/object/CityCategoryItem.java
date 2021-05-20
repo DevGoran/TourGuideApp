@@ -8,17 +8,17 @@ public class CityCategoryItem {
     /**
      * Resource ID for icon of each item.
      */
-    private int mIconResourceId;
+    private final int mIconResourceId;
 
     /**
      * Resource ID for the title of each recommendation.
      */
-    private int mTitle;
+    private final int mTitle;
 
     /**
      * Resource ID for the location of each recommendation.
      */
-    private int mInfo;
+    private final int mInfo;
 
     /**
      * Create a new CityCategoryItem object.

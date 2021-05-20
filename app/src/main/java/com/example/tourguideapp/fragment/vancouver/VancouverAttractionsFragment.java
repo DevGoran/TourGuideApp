@@ -35,7 +35,7 @@ public class VancouverAttractionsFragment extends Fragment {
         categories.add(new CityCategoryItem(R.drawable.ic_building, R.string.robson_square, R.string.robson_square_info));
         categories.add(new CityCategoryItem(R.drawable.ic_street, R.string.granville_st, R.string.granville_st_info));
         categories.add(new CityCategoryItem(R.drawable.ic_street_lamps, R.string.gastown, R.string.gastown_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_binoculars, R.string.vancouver_lookout_attraction, R.string.vancouver_lookout_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_binoculars, R.string.vancouver_lookout_attraction, R.string.vancouver_lookout_attraction_info));
         categories.add(new CityCategoryItem(R.drawable.ic_building, R.string.canada_place, R.string.canada_place_info));
         categories.add(new CityCategoryItem(R.drawable.ic_totem, R.string.totem_poles, R.string.totem_poles_info));
         categories.add(new CityCategoryItem(R.drawable.ic_seawall, R.string.van_seawall, R.string.van_seawall_info));

@@ -8,7 +8,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.tourguideapp.R;
-import com.example.tourguideapp.VancouverActivity;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonActivitiesFragment;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonAttractionsFragment;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonCoffeeFragment;
@@ -33,7 +32,7 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
     /**
      * Context of the Fragment.
      **/
-    private Context mContext;
+    private final Context mContext;
 
     /**
      * Return the Fragment associated with a specified position.

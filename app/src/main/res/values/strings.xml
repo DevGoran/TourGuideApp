@@ -96,7 +96,7 @@
     <string name="gastown">Gastown</string>
     <string name="gastown_info">You won\'t regret it. promised!</string>
     <string name="vancouver_lookout_attraction">Vancouver Lookout</string>
-    <string name="vancouver_lookout_attraction_info">For a great view.</string>
+    <string name="vancouver_lookout_attraction_info">Fantastic view of the city.</string>
     <string name="totem_poles">Totem Poles</string>
     <string name="totem_poles_info">If you want to see something historic.</string>
     <string name="van_seawall">Vancouver Seawall</string>
@@ -129,50 +129,6 @@
     <string name="st_johns_underline"><u>St. Johns</u></string>
     <string name="st_johns_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
 
-    <!-- PlaceholderRestaurantFragment ArrayList strings. -->
-    <string name="restaurant_placeholder_one">Placeholder 1</string>
-    <string name="restaurant_placeholder_one_info">Placeholder 1 info</string>
-    <string name="restaurant_restaurant_placeholder_two">Placeholder 2</string>
-    <string name="restaurant_placeholder_two_info">Placeholder 2 info</string>
-    <string name="restaurant_placeholder_three">Placeholder 3</string>
-    <string name="restaurant_placeholder_three_info">Placeholder 3 info</string>
-    <string name="restaurant_placeholder_four">Placeholder 4</string>
-    <string name="restaurant_placeholder_four_info">Placeholder 4 info</string>
-    <string name="restaurant_placeholder_five">Placeholder 5</string>
-    <string name="restaurant_placeholder_five_info">Placeholder 5 info</string>
-    <string name="restaurant_placeholder_six">Placeholder 6</string>
-    <string name="restaurant_placeholder_six_info">Placeholder 6 info</string>
-    <string name="restaurant_placeholder_seven">Placeholder 7</string>
-    <string name="restaurant_placeholder_seven_info">Placeholder 7 info</string>
-    <string name="restaurant_placeholder_eight">Placeholder 8</string>
-    <string name="restaurant_placeholder_eight_info">Placeholder 8 info</string>
-    <string name="restaurant_placeholder_nine">Placeholder 9</string>
-    <string name="restaurant_placeholder_nine_info">Placeholder 9 info</string>
-    <string name="restaurant_placeholder_ten">Placeholder 10</string>
-    <string name="restaurant_placeholder_ten_info">Placeholder 10 info</string>
-
-    <!-- PlaceholderCoffeeFragment ArrayList strings. -->
-    <string name="coffee_placeholder_one">Placeholder 1</string>
-    <string name="coffee_placeholder_one_info">Placeholder 1 info</string>
-    <string name="coffee_placeholder_two">Placeholder 2</string>
-    <string name="coffee_placeholder_two_info">Placeholder 2 info</string>
-    <string name="coffee_placeholder_three">Placeholder 3</string>
-    <string name="coffee_placeholder_three_info">Placeholder 3 info</string>
-    <string name="coffee_placeholder_four">Placeholder 4</string>
-    <string name="coffee_placeholder_four_info">Placeholder 4 info</string>
-    <string name="coffee_placeholder_five">Placeholder 5</string>
-    <string name="coffee_placeholder_five_info">Placeholder 5 info</string>
-    <string name="coffee_placeholder_six">Placeholder 6</string>
-    <string name="coffee_placeholder_six_info">Placeholder 6 info</string>
-    <string name="coffee_placeholder_seven">Placeholder 7</string>
-    <string name="coffee_placeholder_seven_info">Placeholder 7 info</string>
-    <string name="coffee_placeholder_eight">Placeholder 8</string>
-    <string name="coffee_placeholder_eight_info">Placeholder 8 info</string>
-    <string name="coffee_placeholder_nine">Placeholder 9</string>
-    <string name="coffee_placeholder_nine_info">Placeholder 9 info</string>
-    <string name="coffee_placeholder_ten">Placeholder 10</string>
-    <string name="coffee_placeholder_ten_info">Placeholder 10 info</string>
-
     <!-- PlaceholderActivitiesFragment ArrayList strings. -->
     <string name="activities_placeholder_one">Placeholder 1</string>
     <string name="activities_placeholder_one_info">Placeholder 1 info</string>
@@ -194,28 +150,4 @@
     <string name="activities_placeholder_nine_info">Placeholder 9 info</string>
     <string name="activities_placeholder_ten">Placeholder 10</string>
     <string name="activities_placeholder_ten_info">Placeholder 10 info</string>
-
-    <!-- PlaceholderAttractionsFragment ArrayList strings. -->
-    <string name="attractions_placeholder_one">Placeholder 1</string>
-    <string name="attractions_placeholder_one_info">Placeholder 1 info</string>
-    <string name="attractions_placeholder_two">Placeholder 2</string>
-    <string name="attractions_placeholder_two_info">Placeholder 2 info</string>
-    <string name="attractions_placeholder_three">Placeholder 3</string>
-    <string name="attractions_placeholder_three_info">Placeholder 3 info</string>
-    <string name="attractions_placeholder_four">Placeholder 4</string>
-    <string name="attractions_placeholder_four_info">Placeholder 4 info</string>
-    <string name="attractions_placeholder_five">Placeholder 5</string>
-    <string name="attractions_placeholder_five_info">Placeholder 5 info</string>
-    <string name="attractions_placeholder_six">Placeholder 6</string>
-    <string name="attractions_placeholder_six_info">Placeholder 6 info</string>
-    <string name="attractions_placeholder_seven">Placeholder 7</string>
-    <string name="attractions_placeholder_seven_info">Placeholder 7 info</string>
-    <string name="attractions_placeholder_eight">Placeholder 8</string>
-    <string name="attractions_placeholder_eight_info">Placeholder 8 info</string>
-    <string name="attractions_placeholder_nine">Placeholder 9</string>
-    <string name="attractions_placeholder_nine_info">Placeholder 9 info</string>
-    <string name="attractions_placeholder_ten">Placeholder 10</string>
-    <string name="attractions_placeholder_ten_info">Placeholder 10 info</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
