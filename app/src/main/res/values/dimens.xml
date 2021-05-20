@@ -2,8 +2,6 @@
 <resources>
     <!-- MainActivity -->
     <dimen name="image_banner_height">170dp</dimen>
-    <dimen name="main_header_text_size">20sp</dimen>
-    <dimen name="main_header_padding">16dp</dimen>
     <dimen name="main_banner_padding">16dp</dimen>
 
     <!-- Fragment main category. -->
@@ -31,13 +29,6 @@
     <dimen name="list_item_icon_size">88dp</dimen>
     <dimen name="list_item_icon_padding">16dp</dimen>
     <dimen name="list_item_icon_margin_end">8dp</dimen>
-
-    <!-- list_item LinearLayout. -->
-    <dimen name="list_item_linear_layout_Start">8dp</dimen>
-    <dimen name="list_item_linear_layout_padding_bottom">16dp</dimen>
-    <dimen name="list_item_linear_layout_padding_top">16dp</dimen>
-    <dimen name="list_item_linear_layout_padding_end">16dp</dimen>
-    <dimen name="list_item_linear_layout_height">96dp</dimen>
 
     <!-- list_item upper TextView. -->
     <dimen name="list_item_upper_text_view_height">0dp</dimen>
