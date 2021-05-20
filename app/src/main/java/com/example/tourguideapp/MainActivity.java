@@ -3,7 +3,6 @@ package com.example.tourguideapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,8 +25,13 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView torontoBanner = findViewById(R.id.toronto_banner);
         // The code in this method will be executed when Toronto is clicked on.
-        torontoBanner.setOnClickListener(view ->
-                Toast.makeText(MainActivity.this, getString(R.string.toast_message_main_activity), Toast.LENGTH_SHORT).show());
+        torontoBanner.setOnClickListener(view -> {
+            // Create a new intent to open the {@link SaskatoonActivity}
+            Intent saskatoonIntent = new Intent(MainActivity.this, TorontoActivity.class);
+
+            // Start the new activity
+            startActivity(saskatoonIntent);
+        });
 
         ImageView saskatoonBanner = findViewById(R.id.saskatoon_banner);
         // The code in this method will be executed when Saskatoon is clicked on.
@@ -41,7 +45,12 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView stJohnsBanner = findViewById(R.id.st_johns_banner);
         // The code in this method will be executed when St. Johns is clicked on.
-        stJohnsBanner.setOnClickListener(view ->
-                Toast.makeText(MainActivity.this, getString(R.string.toast_message_main_activity), Toast.LENGTH_SHORT).show());
+        stJohnsBanner.setOnClickListener(view -> {
+            // Create a new intent to open the {@link SaskatoonActivity}
+            Intent stJohnsIntent = new Intent(MainActivity.this, StJohnsActivity.class);
+
+            // Start the new activity
+            startActivity(stJohnsIntent);
+        });
     }
 }

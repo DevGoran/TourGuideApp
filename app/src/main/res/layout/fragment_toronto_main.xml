@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/parent_linear_layout_padding_bottom"
+        tools:context=".fragment.TorontoMainFragment">
+
+        <!-- Photo by Designecologist from Pexels. License: https://www.pexels.com/license/ -->
+        <ImageView
+            style="@style/city_banner_fragment"
+            android:src="@drawable/toronto_banner"
+            android:importantForAccessibility="no" />
+
+        <!-- Toronto header. -->
+        <TextView
+            style="@style/city_header"
+            android:text="@string/toronto_underline" />
+
+        <!-- Introduction to Toronto. -->
+        <TextView
+            style="@style/city_description_style"
+            android:text="@string/toronto_introduction" />
+
+        <!-- Beginning of the official channel section. -->
+        <TextView
+            style="@style/official_channels"
+            android:text="@string/official_channels" />
+
+        <!-- Website. -->
+        <LinearLayout
+            android:id="@+id/website_toronto_linear_view"
+            style="@style/channels_linear_layout_style"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                style="@style/channels_icon_style"
+                android:src="@drawable/ic_world_wide_web"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                style="@style/channels_textview_style"
+                android:text="@string/visit_toronto" />
+        </LinearLayout>
+
+        <!-- Twitter. -->
+        <LinearLayout
+            android:id="@+id/twitter_toronto_linear_view"
+            style="@style/channels_linear_layout_style"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                style="@style/channels_icon_style"
+                android:src="@drawable/ic__43_twitter"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                style="@style/channels_textview_style"
+                android:text="@string/destination_toronto" />
+        </LinearLayout>
+
+        <!-- Instagram. -->
+        <LinearLayout
+            android:id="@+id/instagram_toronto_linear_view"
+            style="@style/channels_linear_layout_style"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                style="@style/channels_icon_style"
+                android:src="@drawable/ic__25_instagram"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                style="@style/channels_textview_style"
+                android:text="@string/destination_toronto" />
+        </LinearLayout>
+
+        <!-- Facebook. -->
+        <LinearLayout
+            android:id="@+id/facebook_toronto_linear_view"
+            style="@style/channels_linear_layout_style"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                style="@style/channels_icon_style"
+                android:src="@drawable/ic__21_facebook"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                style="@style/channels_textview_style"
+                android:text="@string/destination_toronto" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -13,6 +13,11 @@ import com.example.tourguideapp.fragment.saskatoon.SaskatoonAttractionsFragment;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonCoffeeFragment;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonMainFragment;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonRestaurantFragment;
+import com.example.tourguideapp.fragment.toronto.TorontoActivitiesFragment;
+import com.example.tourguideapp.fragment.toronto.TorontoAttractionsFragment;
+import com.example.tourguideapp.fragment.toronto.TorontoCoffeeFragment;
+import com.example.tourguideapp.fragment.toronto.TorontoMainFragment;
+import com.example.tourguideapp.fragment.toronto.TorontoRestaurantFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverMainFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverActivitiesFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverAttractionsFragment;
@@ -43,6 +48,7 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
 
         String className = mContext.getClass().getSimpleName();
 
+        // Check which Activity is using the ViewHolder and return the appropriate Fragments.
         switch (className) {
             case "VancouverActivity":
                 if (position == 0) {
@@ -67,6 +73,18 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
                     return new SaskatoonRestaurantFragment();
                 } else {
                     return new SaskatoonActivitiesFragment();
+                }
+            case "TorontoActivity":
+                if (position == 0) {
+                    return new TorontoMainFragment();
+                } else if (position == 1) {
+                    return new TorontoAttractionsFragment();
+                } else if (position == 2) {
+                    return new TorontoCoffeeFragment();
+                } else if (position == 3) {
+                    return new TorontoRestaurantFragment();
+                } else {
+                    return new TorontoActivitiesFragment();
                 }
         }
         return null;

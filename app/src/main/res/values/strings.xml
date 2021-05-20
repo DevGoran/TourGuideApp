@@ -2,7 +2,6 @@
     <!-- General app wide strings. -->
     <string name="app_name">Tour Guide App</string>
     <string name="toast_message_fragments">Imagine this would open a website or another activity! :)</string>
-    <string name="toast_message_main_activity">Just decoration, for now :)</string>
     <string name="official_channels">Official Channels</string>
 
     <!-- Tab category strings. -->
@@ -119,10 +118,18 @@
     <string name="saskatoon_website_url">https://www.tourismsaskatoon.com/</string>
     <string name="saskatoon_facebook_url">https://www.facebook.com/TourismSaskatoon/</string>
 
-    <!-- Saskatoon strings and introduction. -->
+    <!-- Toronto strings and introduction. -->
     <string name="toronto">Toronto</string>
     <string name="toronto_underline"><u>Toronto</u></string>
     <string name="toronto_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
+    <string name="destination_toronto">Destination Toronto</string>
+    <string name="visit_toronto">Visit Toronto</string>
+
+    <!-- Vancouver URL strings. -->
+    <string name="toronto_twitter_url">https://twitter.com/SeeTorontoNow</string>
+    <string name="toronto_instagram_url">https://www.instagram.com/destination_toronto/</string>
+    <string name="toronto_website_url">https://www.destinationtoronto.com/#sm.0000wgd16cz7afi1wqy1qm9e36crr</string>
+    <string name="toronto_facebook_url">https://www.facebook.com/insidevancouver/</string>
 
     <!-- Saskatoon strings and introduction. -->
     <string name="st_johns">St. Johns</string>
