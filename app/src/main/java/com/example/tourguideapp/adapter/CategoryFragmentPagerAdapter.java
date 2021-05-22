@@ -13,18 +13,28 @@ import com.example.tourguideapp.fragment.saskatoon.SaskatoonAttractionsFragment;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonCoffeeFragment;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonMainFragment;
 import com.example.tourguideapp.fragment.saskatoon.SaskatoonRestaurantFragment;
+import com.example.tourguideapp.fragment.stjohns.StJohnsActivitiesFragment;
+import com.example.tourguideapp.fragment.stjohns.StJohnsAttractionsFragment;
+import com.example.tourguideapp.fragment.stjohns.StJohnsCoffeeFragment;
+import com.example.tourguideapp.fragment.stjohns.StJohnsMainFragment;
+import com.example.tourguideapp.fragment.stjohns.StJohnsRestaurantFragment;
 import com.example.tourguideapp.fragment.toronto.TorontoActivitiesFragment;
 import com.example.tourguideapp.fragment.toronto.TorontoAttractionsFragment;
 import com.example.tourguideapp.fragment.toronto.TorontoCoffeeFragment;
 import com.example.tourguideapp.fragment.toronto.TorontoMainFragment;
 import com.example.tourguideapp.fragment.toronto.TorontoRestaurantFragment;
-import com.example.tourguideapp.fragment.vancouver.VancouverMainFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverActivitiesFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverAttractionsFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverCoffeeFragment;
+import com.example.tourguideapp.fragment.vancouver.VancouverMainFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverRestaurantFragment;
 
 public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
+
+    /**
+     * Context of the Fragment.
+     **/
+    private final Context mContext;
 
     /**
      * Constructor of the class.
@@ -33,11 +43,6 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
         super(fm);
         mContext = context;
     }
-
-    /**
-     * Context of the Fragment.
-     **/
-    private final Context mContext;
 
     /**
      * Return the Fragment associated with a specified position.
@@ -86,6 +91,18 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
                 } else {
                     return new TorontoActivitiesFragment();
                 }
+            case "StJohnsActivity":
+                if (position == 0) {
+                    return new StJohnsMainFragment();
+                } else if (position == 1) {
+                    return new StJohnsAttractionsFragment();
+                } else if (position == 2) {
+                    return new StJohnsCoffeeFragment();
+                } else if (position == 3) {
+                    return new StJohnsRestaurantFragment();
+                } else {
+                    return new StJohnsActivitiesFragment();
+                }
         }
         return null;
     }
@@ -103,8 +120,20 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
      **/
     @Override
     public CharSequence getPageTitle(int position) {
+
+        String className = mContext.getClass().getSimpleName();
+
         if (position == 0) {
-            return mContext.getString(R.string.vancouver);
+            switch (className) {
+                case "VancouverActivity":
+                    return "Vancouver";
+                case "SaskatoonActivity":
+                    return "Saskatoon";
+                case "TorontoActivity":
+                    return "Toronto";
+                case "StJohnsActivity":
+                    return "St. Johns";
+            }
         } else if (position == 1) {
             return mContext.getString(R.string.category_attractions);
         } else if (position == 2) {
@@ -114,6 +143,7 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
         } else {
             return mContext.getString(R.string.category_activities);
         }
+        return null;
     }
 }
 

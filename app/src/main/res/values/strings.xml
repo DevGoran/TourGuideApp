@@ -125,16 +125,23 @@
     <string name="destination_toronto">Destination Toronto</string>
     <string name="visit_toronto">Visit Toronto</string>
 
-    <!-- Vancouver URL strings. -->
+    <!-- Toronto URL strings. -->
     <string name="toronto_twitter_url">https://twitter.com/SeeTorontoNow</string>
     <string name="toronto_instagram_url">https://www.instagram.com/destination_toronto/</string>
     <string name="toronto_website_url">https://www.destinationtoronto.com/#sm.0000wgd16cz7afi1wqy1qm9e36crr</string>
     <string name="toronto_facebook_url">https://www.facebook.com/insidevancouver/</string>
 
-    <!-- Saskatoon strings and introduction. -->
-    <string name="st_johns">St. Johns</string>
-    <string name="st_johns_underline"><u>St. Johns</u></string>
+    <!-- St. John's strings and introduction. -->
+    <string name="st_johns">St. John\'s</string>
+    <string name="st_johns_underline"><u>St. John\'s</u></string>
+    <string name="destination_st_johns">Destination St. John\'s</string>
     <string name="st_johns_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
+
+    <!-- St. John's URL strings. -->
+    <string name="st_johns_twitter_url">https://twitter.com/DestinationSJ</string>
+    <string name="st_johns_instagram_url">https://www.instagram.com/destinationstjohns/</string>
+    <string name="st_johns_website_url">https://destinationstjohns.com/</string>
+    <string name="st_johns_facebook_url">https://www.facebook.com/DestinationStJohns</string>
 
     <!-- PlaceholderActivitiesFragment ArrayList strings. -->
     <string name="activities_placeholder_one">Placeholder 1</string>
