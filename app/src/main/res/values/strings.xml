@@ -5,7 +5,7 @@
     <string name="official_channels">Official Channels</string>
 
     <!-- Tab category strings. -->
-    <string name="category_food">Restaurants</string>
+    <string name="category_restaurants">Restaurants</string>
     <string name="category_activities">Activities</string>
     <string name="category_attractions">Attractions</string>
     <string name="category_coffee">Cafe</string>
