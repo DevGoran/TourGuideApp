@@ -2,8 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/dark_grey">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,8 +14,8 @@
         <!-- Photo by Erik Mclean from Pexels. License: https://www.pexels.com/license/ -->
         <ImageView
             style="@style/city_banner_fragment"
-            android:src="@drawable/st_johns_banner"
-            android:importantForAccessibility="no" />
+            android:importantForAccessibility="no"
+            android:src="@drawable/st_johns_banner" />
 
         <!-- St. John's header. -->
         <TextView
@@ -41,8 +40,8 @@
 
             <ImageView
                 style="@style/channels_icon_style"
-                android:src="@drawable/ic_world_wide_web"
-                android:importantForAccessibility="no" />
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_world_wide_web" />
 
             <TextView
                 style="@style/channels_textview_style"
@@ -57,8 +56,8 @@
 
             <ImageView
                 style="@style/channels_icon_style"
-                android:src="@drawable/ic__43_twitter"
-                android:importantForAccessibility="no" />
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic__43_twitter" />
 
             <TextView
                 style="@style/channels_textview_style"
@@ -73,8 +72,8 @@
 
             <ImageView
                 style="@style/channels_icon_style"
-                android:src="@drawable/ic__25_instagram"
-                android:importantForAccessibility="no" />
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic__25_instagram" />
 
             <TextView
                 style="@style/channels_textview_style"
@@ -89,8 +88,8 @@
 
             <ImageView
                 style="@style/channels_icon_style"
-                android:src="@drawable/ic__21_facebook"
-                android:importantForAccessibility="no" />
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic__21_facebook" />
 
             <TextView
                 style="@style/channels_textview_style"
