@@ -15,7 +15,7 @@
         <ImageView
             style="@style/city_banner_fragment"
             android:importantForAccessibility="no"
-            android:src="@drawable/vancouver_fragment" />
+            android:src="@drawable/vancouver_main_fragment_banner" />
 
         <!-- Vancouver header. -->
         <TextView

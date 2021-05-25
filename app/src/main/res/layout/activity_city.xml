@@ -10,10 +10,9 @@
         style="@style/Widget.App.TabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@null"
-        app:tabIndicatorColor="@color/tab_background"
+        app:tabIndicatorColor="@color/tab_accent"
         app:tabMode="scrollable"
-        app:tabSelectedTextColor="@color/tab_background"
+        app:tabSelectedTextColor="@color/tab_accent"
         app:tabTextColor="@android:color/white" />
 
     <androidx.viewpager2.widget.ViewPager2

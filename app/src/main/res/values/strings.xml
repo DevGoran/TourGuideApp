@@ -3,6 +3,7 @@
     <string name="app_name">Tour Guide App</string>
     <string name="toast_message_fragments">Imagine this would open a website or another activity! :)</string>
     <string name="official_channels">Official Channels</string>
+    <string name="about">About</string>
 
     <!-- Tab category strings. -->
     <string name="category_restaurants">Restaurants</string>

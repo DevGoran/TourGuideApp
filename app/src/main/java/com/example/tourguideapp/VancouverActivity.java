@@ -33,7 +33,7 @@ public class VancouverActivity extends MainActivity {
         // Connect the tab layout with the view pager and set the tab names.
         new TabLayoutMediator(tabLayout, viewPager, (tab, position) -> {
             if(position == 0)
-                tab.setText(getString(R.string.vancouver));
+                tab.setText(getString(R.string.about));
             else if (position == 1)
                 tab.setText(getString(R.string.category_attractions));
             else if (position == 2)

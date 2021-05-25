@@ -5,5 +5,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="dark_grey">#1B1B1B</color>
-    <color name="tab_background">#40C4FF</color>
+    <color name="tab_accent">#FF8A65</color>
 </resources>

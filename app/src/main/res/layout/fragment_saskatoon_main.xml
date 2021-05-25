@@ -15,7 +15,7 @@
         <ImageView
             style="@style/city_banner_fragment"
             android:importantForAccessibility="no"
-            android:src="@drawable/saskatoon_banner" />
+            android:src="@drawable/saskatoon_main_fragment_banner" />
 
         <!-- Saskatoon header. -->
         <TextView

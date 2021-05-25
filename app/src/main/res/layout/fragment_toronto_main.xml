@@ -11,11 +11,11 @@
         android:paddingBottom="@dimen/parent_linear_layout_padding_bottom"
         tools:context=".fragment.TorontoMainFragment">
 
-        <!-- Photo by Designecologist from Pexels. License: https://www.pexels.com/license/ -->
+        <!-- Photo by Andre Furtado from Pexels. License: https://www.pexels.com/license/ -->
         <ImageView
             style="@style/city_banner_fragment"
             android:importantForAccessibility="no"
-            android:src="@drawable/toronto_banner" />
+            android:src="@drawable/toronto_main_fragment_banner" />
 
         <!-- Toronto header. -->
         <TextView
