@@ -44,6 +44,7 @@ public class CategoryFragmentPagerAdapter extends FragmentStateAdapter {
         mContext = context;
     }
 
+    @SuppressWarnings("ConstantConditions")
     @NonNull
     @Override
     public Fragment createFragment(int position) {
