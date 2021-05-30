@@ -27,10 +27,10 @@
             style="@style/city_description_style"
             android:text="@string/toronto_introduction" />
 
-        <!-- Beginning of the official channel section. -->
+        <!-- Beginning of the social media section. -->
         <TextView
             style="@style/official_channels"
-            android:text="@string/official_channels" />
+            android:text="@string/social_media" />
 
         <!-- Website. -->
         <LinearLayout

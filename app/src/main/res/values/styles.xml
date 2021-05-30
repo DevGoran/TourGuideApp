@@ -6,6 +6,8 @@
         <item name="android:layout_height">@dimen/image_banner_height</item>
         <item name="android:layout_marginTop">@dimen/main_banner_margin_top</item>
         <item name="android:scaleType">centerCrop</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="shapeAppearanceOverlay">@style/roundedCornersImageView</item>
     </style>
 
     <!-- Style for TextViews in "official channels" section on the main screen of each city. -->

@@ -2,7 +2,7 @@
     <!-- General app wide strings. -->
     <string name="app_name">Tour Guide App</string>
     <string name="toast_message_fragments">Imagine this would open a website or another activity! :)</string>
-    <string name="official_channels">Official Channels</string>
+    <string name="social_media">Social Media</string>
     <string name="about">About</string>
 
     <!-- Tab category strings. -->
