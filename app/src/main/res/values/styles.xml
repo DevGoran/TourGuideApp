@@ -4,7 +4,7 @@
     <style name="main_banner_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/image_banner_height</item>
-        <item name="android:paddingTop">@dimen/main_banner_padding</item>
+        <item name="android:layout_marginTop">@dimen/main_banner_margin_top</item>
         <item name="android:scaleType">centerCrop</item>
     </style>
 
@@ -83,5 +83,11 @@
     <!-- Style for tab's-->
     <style name="ThemeOverlay.App.TabLayout" parent="">
         <item name="android:background">@null</item>
+    </style>
+
+    <!-- Style for shapeable views. -->
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
     </style>
 </resources>

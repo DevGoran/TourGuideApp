@@ -3,13 +3,16 @@ package com.example.tourguideapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -52,5 +55,13 @@ public class MainActivity extends AppCompatActivity {
             // Start the new activity
             startActivity(stJohnsIntent);
         });
+
+        ImageView calgaryBanner = findViewById(R.id.calgary_banner);
+        // The code in this method will be executed when Calgary is clicked on.
+        calgaryBanner.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Design purpose only", Toast.LENGTH_SHORT).show());
+
+        ImageView victoriaBanner = findViewById(R.id.victoria_banner);
+        // The code in this method will be executed when Victoria is clicked on.
+        victoriaBanner.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Design purpose only", Toast.LENGTH_SHORT).show());
     }
 }

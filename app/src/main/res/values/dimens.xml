@@ -2,7 +2,8 @@
 <resources>
     <!-- MainActivity -->
     <dimen name="image_banner_height">170dp</dimen>
-    <dimen name="main_banner_padding">16dp</dimen>
+    <dimen name="main_banner_margin_top">16dp</dimen>
+    <dimen name="main_layout_margin_padding">16dp</dimen>
 
     <!-- Fragment main category. -->
     <dimen name="city_banner_fragment_height">200dp</dimen>
