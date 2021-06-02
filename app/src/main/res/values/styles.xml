@@ -10,6 +10,16 @@
         <item name="shapeAppearanceOverlay">@style/roundedCornersImageView</item>
     </style>
 
+    <!-- Style for banners on main screen in landscape. -->
+    <style name="main_banner_land_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_banner_height_land</item>
+        <item name="android:layout_marginTop">@dimen/main_banner_margin_top</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="shapeAppearanceOverlay">@style/roundedCornersImageView</item>
+    </style>
+
     <!-- Style for TextViews in "official channels" section on the main screen of each city. -->
     <style name="channels_textview_style">
         <item name="android:layout_width">match_parent</item>
@@ -91,5 +101,16 @@
     <style name="roundedCornersImageView" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">10dp</item>
+    </style>
+
+    <!-- Style for icons of donations part in MainActivity. -->
+    <style name="donations_icons_style">
+        <item name="android:layout_width">@dimen/donation_icon_width</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/donation_icon_height</item>
+        <item name="android:layout_marginStart">@dimen/donation_icon_marging_start</item>
+        <item name="android:background">#00FFFFFF</item>
+        <item name="android:maxHeight">@dimen/donation_icon_max_size</item>
+        <item name="android:maxWidth">@dimen/donation_icon_max_size</item>
     </style>
 </resources>

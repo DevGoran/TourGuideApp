@@ -2,4 +2,5 @@
 <resources>
     <color name="dark_grey">#1B1B1B</color>
     <color name="tab_accent">#FF8A65</color>
+    <color name="translucent">#00FFFFFF</color>
 </resources>

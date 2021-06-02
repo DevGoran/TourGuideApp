@@ -4,6 +4,7 @@
     <string name="toast_message_fragments">Imagine this would open a website or another activity! :)</string>
     <string name="social_media">Social Media</string>
     <string name="about">About</string>
+    <string name="donations">Donations</string>
 
     <!-- Tab category strings. -->
     <string name="category_restaurants">Restaurants</string>

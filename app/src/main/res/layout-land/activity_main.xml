@@ -16,7 +16,7 @@
         <!--Photo by Adi Kavazovic from Pexels. License: https://www.pexels.com/license/ -->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/vancouver_banner"
-            style="@style/main_banner_style"
+            style="@style/main_banner_land_style"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -26,7 +26,7 @@
         <!--Photo by Sarath SunilDutt from Pexels. License: https://www.pexels.com/license/ -->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/saskatoon_banner"
-            style="@style/main_banner_style"
+            style="@style/main_banner_land_style"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/vancouver_banner"
@@ -36,7 +36,7 @@
         <!--Photo by Designecologist from Pexels. License: https://www.pexels.com/license/ -->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/toronto_banner"
-            style="@style/main_banner_style"
+            style="@style/main_banner_land_style"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/saskatoon_banner"
@@ -46,7 +46,7 @@
         <!--Photo by Erik Mclean from Pexels. License: https://www.pexels.com/license/ -->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/st_johns_banner"
-            style="@style/main_banner_style"
+            style="@style/main_banner_land_style"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/toronto_banner"
@@ -57,7 +57,7 @@
         <!--ImageView just for design purposes. -->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/calgary_banner"
-            style="@style/main_banner_style"
+            style="@style/main_banner_land_style"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/st_johns_banner"
@@ -68,7 +68,7 @@
         <!--ImageView just for design purposes. -->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/victoria_banner"
-            style="@style/main_banner_style"
+            style="@style/main_banner_land_style"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/calgary_banner"
@@ -78,7 +78,7 @@
         <!--Donations. -->
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/donations_height_port"
+            android:layout_height="@dimen/donations_height_land"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/victoria_banner">
@@ -106,7 +106,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/donations_text_view"
-                android:layout_marginTop="@dimen/donation_icon_linear_margin_top_port"
+                android:layout_marginTop="@dimen/donation_icon_linear_margin_top_land"
                 android:layout_marginEnd="@dimen/donation_icon_linear_margin_end"
                 android:background="@color/translucent"
                 android:orientation="horizontal">

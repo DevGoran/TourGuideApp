@@ -2,6 +2,7 @@
 <resources>
     <!-- MainActivity -->
     <dimen name="image_banner_height">170dp</dimen>
+    <dimen name="image_banner_height_land">320dp</dimen>
     <dimen name="main_banner_margin_top">16dp</dimen>
     <dimen name="main_layout_margin_padding">16dp</dimen>
 
@@ -40,4 +41,18 @@
     <!-- list_item lower TextView. -->
     <dimen name="list_item_lower_text_view_height">0dp</dimen>
     <dimen name="list_item_lower_text_view_width">0dp</dimen>
+
+    <!-- Donation icons. -->
+    <dimen name="donation_icon_width">0dp</dimen>
+    <dimen name="donation_icon_height">58dp</dimen>
+    <dimen name="donation_icon_marging_start">30dp</dimen>
+    <dimen name="donation_icon_max_size">65dp</dimen>
+    <dimen name="donation_icon_linear_margin_top_land">30dp</dimen>
+    <dimen name="donation_icon_linear_margin_top_port">18dp</dimen>
+    <dimen name="donation_icon_linear_margin_end">40dp</dimen>
+    <dimen name="donation_icon_text_view_margin_start">24dp</dimen>
+    <dimen name="donation_icon_text_view_margin_top">30dp</dimen>
+    <dimen name="donation_icon_text_view_text_size">30sp</dimen>
+    <dimen name="donations_height_land">200dp</dimen>
+    <dimen name="donations_height_port">170dp</dimen>
 </resources>
