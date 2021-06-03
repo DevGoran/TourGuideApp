@@ -87,7 +87,7 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/donations_background"
                 style="@style/main_banner_land_style"
-                android:background="@color/tab_accent" />
+                android:background="@color/donations_background" />
 
             <!--Donations TextView. -->
             <TextView
@@ -97,9 +97,10 @@
                 android:layout_marginStart="@dimen/donation_icon_text_view_margin_start"
                 android:layout_marginTop="@dimen/donation_icon_text_view_margin_top"
                 android:background="@color/translucent"
+                android:fontFamily="@font/martel_sans_light"
                 android:text="@string/donations"
-                android:textSize="@dimen/donation_icon_text_view_text_size"
-                android:textStyle="bold" />
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/donation_icon_text_view_text_size" />
 
             <!--Donations ViewGroup for icons. -->
             <LinearLayout

@@ -48,11 +48,11 @@
     <dimen name="donation_icon_marging_start">30dp</dimen>
     <dimen name="donation_icon_max_size">65dp</dimen>
     <dimen name="donation_icon_linear_margin_top_land">30dp</dimen>
-    <dimen name="donation_icon_linear_margin_top_port">18dp</dimen>
+    <dimen name="donation_icon_linear_margin_top_port">14dp</dimen>
     <dimen name="donation_icon_linear_margin_end">40dp</dimen>
     <dimen name="donation_icon_text_view_margin_start">24dp</dimen>
     <dimen name="donation_icon_text_view_margin_top">30dp</dimen>
-    <dimen name="donation_icon_text_view_text_size">30sp</dimen>
+    <dimen name="donation_icon_text_view_text_size">28sp</dimen>
     <dimen name="donations_height_land">200dp</dimen>
     <dimen name="donations_height_port">170dp</dimen>
 </resources>
