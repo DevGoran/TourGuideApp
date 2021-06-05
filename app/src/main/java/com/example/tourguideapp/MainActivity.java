@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView torontoBanner = findViewById(R.id.toronto_banner);
         // The code in this method will be executed when Toronto is clicked on.
         torontoBanner.setOnClickListener(view -> {
-            // Create a new intent to open the {@link SaskatoonActivity}
+            // Create a new intent to open the {@link TorontoActivity}
             Intent saskatoonIntent = new Intent(MainActivity.this, TorontoActivity.class);
 
             // Start the new activity
@@ -69,10 +69,15 @@ public class MainActivity extends AppCompatActivity {
             startActivity(calgaryIntent);
         });
 
-
         ImageView victoriaBanner = findViewById(R.id.victoria_banner);
         // The code in this method will be executed when Victoria is clicked on.
-        victoriaBanner.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Design purpose only", Toast.LENGTH_SHORT).show());
+        victoriaBanner.setOnClickListener(view -> {
+            // Create a new intent to open the {@link VictoriaActivity}
+            Intent victoriaIntent = new Intent(MainActivity.this, VictoriaActivity.class);
+
+            // Start the new activity
+            startActivity(victoriaIntent);
+        });
 
         // Copies the Etherium address into clipboard and shows a message for information.
         ImageView ethereumDonation = findViewById(R.id.ethereum);
@@ -120,11 +125,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // TODO 0: Add city labels in MainActivity.
-        // TODO 2: Add addresses to strings.
-        // TODO 3: Add CalgaryActivity.
-        // TODO 4: Add Calgary Fragments
-        // TODO 5: Add VictoriaActivity.
-        // TODO 6: Add Victoria Fragments
+        // TODO 2: Add donation addresses to strings.
         // TODO 7: Add current time to cities.
         // TODO 8: Add weather to cities.
 

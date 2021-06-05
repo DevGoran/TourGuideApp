@@ -166,7 +166,7 @@
 
     <!-- Victoria strings and introduction. -->
     <string name="victoria">Victoria</string>
-    <string name="victoria_underline"><u>Calgary</u></string>
+    <string name="victoria_underline"><u>Victoria</u></string>
     <string name="victoria_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
     <string name="tourism_victoria">Toursim Victoria</string>
     <string name="destination_greater_victoria">Destination Greater Victoria</string>
