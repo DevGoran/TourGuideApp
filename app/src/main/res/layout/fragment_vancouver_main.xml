@@ -17,11 +17,6 @@
             android:importantForAccessibility="no"
             android:src="@drawable/vancouver_main_fragment_banner" />
 
-        <!-- Vancouver header. -->
-        <TextView
-            style="@style/city_header"
-            android:text="@string/vancouver_underline" />
-
         <!-- Introduction to Vancouver. -->
         <TextView
             style="@style/city_description_style"

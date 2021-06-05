@@ -17,11 +17,6 @@
             android:importantForAccessibility="no"
             android:src="@drawable/st_johns_banner" />
 
-        <!-- St. John's header. -->
-        <TextView
-            style="@style/city_header"
-            android:text="@string/st_johns_underline" />
-
         <!-- Introduction to St. John's. -->
         <TextView
             style="@style/city_description_style"

@@ -51,9 +51,9 @@
     <style name="city_description_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/vancouver_description_margin_top</item>
-        <item name="android:layout_marginStart">@dimen/vancouver_description_margin_start</item>
-        <item name="android:layout_marginEnd">@dimen/vancouver_description_margin_end</item>
+        <item name="android:layout_marginTop">@dimen/city_description_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/city_description_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/city_description_margin_end</item>
         <item name="android:textStyle">italic</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
@@ -67,17 +67,6 @@
         <item name="android:layout_marginEnd">@dimen/official_channels_header_margin_end</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/official_channels_text_size</item>
-    </style>
-
-    <!-- Style for the header on the main screen of each city. -->
-    <style name="city_header">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/city_header_margin_top</item>
-        <item name="android:layout_marginStart">@dimen/city_header_margin_start</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">@dimen/city_header_text_size</item>
-        <item name="android:textStyle">bold</item>
     </style>
 
     <!-- Style for each city's banner in each activity -->

@@ -17,11 +17,6 @@
             android:importantForAccessibility="no"
             android:src="@drawable/victoria_banner_main" />
 
-        <!-- Victoria header. -->
-        <TextView
-            style="@style/city_header"
-            android:text="@string/victoria_underline" />
-
         <!-- Introduction to Victoria. -->
         <TextView
             style="@style/city_description_style"

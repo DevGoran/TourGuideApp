@@ -17,11 +17,6 @@
             android:importantForAccessibility="no"
             android:src="@drawable/calgary_main_fragment_banner" />
 
-        <!-- Calgary header. -->
-        <TextView
-            style="@style/city_header"
-            android:text="@string/calgary_underline" />
-
         <!-- Introduction to Calgary. -->
         <TextView
             style="@style/city_description_style"

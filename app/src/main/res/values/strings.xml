@@ -6,11 +6,11 @@
     <string name="about">About</string>
     <string name="donations">Donations</string>
     <string name="address_copied">Address copied, thank you for considering a donation!</string>
-    <string name="eth_address">Insert Exodus Address</string>
-    <string name="btc_address">Insert Exodus Address</string>
-    <string name="xmr_address">Insert Exodus Address</string>
-    <string name="ltc_address">Insert Exodus Address</string>
-    <string name="xlm_address">Insert Exodus Address</string>
+    <string name="eth_address">ETH Exodus Address</string>
+    <string name="btc_address">BTC Exodus Address</string>
+    <string name="xmr_address">XMR Exodus Address</string>
+    <string name="ltc_address">LTC Exodus Address</string>
+    <string name="xlm_address">XLM Exodus Address</string>
 
     <!-- Tab category strings. -->
     <string name="category_restaurants">Restaurants</string>
@@ -20,7 +20,6 @@
 
     <!-- Vancouver strings and introduction. -->
     <string name="vancouver">Vancouver</string>
-    <string name="vancouver_underline"><u>Vancouver</u></string>
     <string name="tourism_vancouver">Tourism Vancouver</string>
     <string name="inside_vancouver">Inside Vancouver</string>
     <string name="vancouver_introduction">Vancouver, great choice! Make sure to pack your rain coats and umbrellas. They call it Raincouver for a reason.  \n\n\n <b>6 things to know about Vancouver:  </b>\n\n<b>1.</b> You can find people from everywhere. By the end of the day, you might have friends from 10 different countries. \n\n<b>2.</b> Vancouver is obsessed with sports, HAPPY HOUR, ramen and sushi. But obviously you can find delicious food from any cuisine, even vegetarian and vegan. \n\n<b>3.</b> Like Amsterdam, Vancouver is liberal about using recreational drugs in public, so you won’t get arrested if you use them (you need to be 19+). \n\n<b>4.</b> Movies like Godzilla, Deadpool, Twilight, and TV-Shows such as Supernatural, Riverdale and Arrow were filmed there. They are constantly filming, so you will probably see famous actors at some point *Fingers crossed, Ryan Reynolds*. \n\n<b>5.</b> You don’t need to rent a car in Vancouver. You can get around by SkyTrain, bus, renting a bicycle, and most importantly by walking, we walk a lot. \n\n<b>6.</b> The city has been ranked one of the most livable cities in the world for more than a decade. \n\n\n Swipe to the left to find some recommendations! ;)</string>
@@ -115,7 +114,6 @@
 
     <!-- Saskatoon strings and introduction. -->
     <string name="saskatoon">Saskatoon</string>
-    <string name="saskatoon_underline"><u>Saskatoon</u></string>
     <string name="saskatoon_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
     <string name="tourism_saskatoon">Tourism Saskatoon</string>
     <string name="visit_saskatoon">Visit Saskatoon</string>
@@ -128,7 +126,6 @@
 
     <!-- Toronto strings and introduction. -->
     <string name="toronto">Toronto</string>
-    <string name="toronto_underline"><u>Toronto</u></string>
     <string name="toronto_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
     <string name="destination_toronto">Destination Toronto</string>
     <string name="visit_toronto">Visit Toronto</string>
@@ -141,7 +138,6 @@
 
     <!-- St. John's strings and introduction. -->
     <string name="st_johns">St. John\'s</string>
-    <string name="st_johns_underline"><u>St. John\'s</u></string>
     <string name="destination_st_johns">Destination St. John\'s</string>
     <string name="st_johns_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
 
@@ -153,7 +149,6 @@
 
     <!-- Calgary strings and introduction. -->
     <string name="calgary">Calgary</string>
-    <string name="calgary_underline"><u>Calgary</u></string>
     <string name="calgary_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
     <string name="tourism_calgary">Toursim Calgary</string>
     <string name="visit_calgary">Visit Calgary</string>
@@ -166,7 +161,6 @@
 
     <!-- Victoria strings and introduction. -->
     <string name="victoria">Victoria</string>
-    <string name="victoria_underline"><u>Victoria</u></string>
     <string name="victoria_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
     <string name="tourism_victoria">Toursim Victoria</string>
     <string name="destination_greater_victoria">Destination Greater Victoria</string>

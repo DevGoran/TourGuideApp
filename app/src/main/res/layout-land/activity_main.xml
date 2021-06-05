@@ -13,14 +13,14 @@
         android:paddingBottom="@dimen/main_layout_margin_padding"
         tools:context=".MainActivity">
 
-        <!--Photo by Adi Kavazovic from Pexels. License: https://www.pexels.com/license/ -->
+        <!-- Photo by Goran Vlacic (myself) -->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/vancouver_banner"
             style="@style/main_banner_land_style"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/vancouver_banner"
+            app:srcCompat="@drawable/vancouver_banner_main"
             tools:ignore="ContentDescription" />
 
         <!--Photo by Sarath SunilDutt from Pexels. License: https://www.pexels.com/license/ -->

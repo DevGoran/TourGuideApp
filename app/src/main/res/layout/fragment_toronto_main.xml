@@ -17,11 +17,6 @@
             android:importantForAccessibility="no"
             android:src="@drawable/toronto_main_fragment_banner" />
 
-        <!-- Toronto header. -->
-        <TextView
-            style="@style/city_header"
-            android:text="@string/toronto_underline" />
-
         <!-- Introduction to Toronto. -->
         <TextView
             style="@style/city_description_style"

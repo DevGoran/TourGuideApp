@@ -17,11 +17,6 @@
             android:importantForAccessibility="no"
             android:src="@drawable/saskatoon_main_fragment_banner" />
 
-        <!-- Saskatoon header. -->
-        <TextView
-            style="@style/city_header"
-            android:text="@string/saskatoon_underline" />
-
         <!-- Introduction to Saskatoon. -->
         <TextView
             style="@style/city_description_style"

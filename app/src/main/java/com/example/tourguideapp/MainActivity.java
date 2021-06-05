@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Turn off night mode for app.
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -79,55 +80,36 @@ public class MainActivity extends AppCompatActivity {
             startActivity(victoriaIntent);
         });
 
-        // Copies the Etherium address into clipboard and shows a message for information.
+        // Copies the Ethereum address into clipboard and shows a message to the user for information.
         ImageView ethereumDonation = findViewById(R.id.ethereum);
-        ethereumDonation.setOnClickListener(view -> {
-            ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-            ClipData clip = ClipData.newPlainText("Ethereum wallet address", getString(R.string.eth_address));
-            clipboard.setPrimaryClip(clip);
-            Toast.makeText(MainActivity.this, getString(R.string.address_copied), Toast.LENGTH_SHORT).show();
-        });
+        ethereumDonation.setOnClickListener(view -> copyAddress("Ethereum wallet address", getString(R.string.eth_address)));
 
-        // Copies the Bitcoin address into clipboard and shows a message for information.
+        // Copies the Bitcoin address into clipboard and shows a message to the user for information.
         ImageView bitcoinDonation = findViewById(R.id.bitcoin);
-        bitcoinDonation.setOnClickListener(view -> {
-            ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-            ClipData clip = ClipData.newPlainText("Bitcoin wallet address", getString(R.string.btc_address));
-            clipboard.setPrimaryClip(clip);
-            Toast.makeText(MainActivity.this, getString(R.string.address_copied), Toast.LENGTH_SHORT).show();
-        });
+        bitcoinDonation.setOnClickListener(view -> copyAddress("Bitcoin wallet address", getString(R.string.btc_address)));
 
-        // Copies the Monero address into clipboard and shows a message for information.
+        // Copies the Monero address into clipboard and shows a message to the user for information.
         ImageView moneroDonation = findViewById(R.id.monero);
-        moneroDonation.setOnClickListener(view -> {
-            ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-            ClipData clip = ClipData.newPlainText("Monero wallet address", getString(R.string.xmr_address));
-            clipboard.setPrimaryClip(clip);
-            Toast.makeText(MainActivity.this, getString(R.string.address_copied), Toast.LENGTH_SHORT).show();
-        });
+        moneroDonation.setOnClickListener(view -> copyAddress("Monero wallet address", getString(R.string.xmr_address)));
 
-        // Copies the Litecoin address into clipboard and shows a message for information.
+        // Copies the Litecoin address into clipboard and shows a message to the user for information.
         ImageView litecoinDonation = findViewById(R.id.litecoin);
-        litecoinDonation.setOnClickListener(view -> {
-            ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-            ClipData clip = ClipData.newPlainText("Litecoin wallet address", getString(R.string.ltc_address));
-            clipboard.setPrimaryClip(clip);
-            Toast.makeText(MainActivity.this, getString(R.string.address_copied), Toast.LENGTH_SHORT).show();
-        });
+        litecoinDonation.setOnClickListener(view -> copyAddress("Litecoin wallet address", getString(R.string.ltc_address)));
 
-        // Copies the Stellar address into clipboard and shows a message for information.
+        // Copies the Stellar address into clipboard and shows a message to the user for information.
         ImageView stellarDonation = findViewById(R.id.stellar);
-        stellarDonation.setOnClickListener(view -> {
-            ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-            ClipData clip = ClipData.newPlainText("Stellar wallet address", getString(R.string.xlm_address));
-            clipboard.setPrimaryClip(clip);
-            Toast.makeText(MainActivity.this, getString(R.string.address_copied), Toast.LENGTH_SHORT).show();
-        });
+        stellarDonation.setOnClickListener(view -> copyAddress("Stellar wallet address", getString(R.string.xlm_address)));
+    }
 
-        // TODO 0: Add city labels in MainActivity.
-        // TODO 2: Add donation addresses to strings.
-        // TODO 7: Add current time to cities.
-        // TODO 8: Add weather to cities.
-
+    private void copyAddress(String whichWallet, String walletAddress) {
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        ClipData clip = ClipData.newPlainText(whichWallet, walletAddress);
+        clipboard.setPrimaryClip(clip);
+        Toast.makeText(MainActivity.this, getString(R.string.address_copied), Toast.LENGTH_SHORT).show();
     }
 }
+
+// TODO 1: Create new nodpi banners and compress them.
+// TODO 2: Add donation addresses to strings.
+// TODO 3: Add current time to cities.
+// TODO 4: Add weather to cities.

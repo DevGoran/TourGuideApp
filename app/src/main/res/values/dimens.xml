@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- MainActivity -->
-    <dimen name="image_banner_height">170dp</dimen>
+    <dimen name="image_banner_height">140dp</dimen>
     <dimen name="image_banner_height_land">320dp</dimen>
     <dimen name="main_banner_margin_top">16dp</dimen>
     <dimen name="main_layout_margin_padding">16dp</dimen>
 
     <!-- Fragment main category. -->
     <dimen name="city_banner_fragment_height">200dp</dimen>
-    <dimen name="city_header_text_size">28sp</dimen>
-    <dimen name="city_header_margin_top">16dp</dimen>
-    <dimen name="city_header_margin_start">36dp</dimen>
     <dimen name="official_channels_header_margin_top">48dp</dimen>
     <dimen name="official_channels_header_margin_start">16dp</dimen>
     <dimen name="official_channels_header_margin_end">16dp</dimen>
     <dimen name="official_channels_text_size">20sp</dimen>
-    <dimen name="vancouver_description_margin_top">16dp</dimen>
-    <dimen name="vancouver_description_margin_start">16dp</dimen>
-    <dimen name="vancouver_description_margin_end">16dp</dimen>
+    <dimen name="city_description_margin_top">24dp</dimen>
+    <dimen name="city_description_margin_start">16dp</dimen>
+    <dimen name="city_description_margin_end">16dp</dimen>
     <dimen name="channels_linear_layout_style_margin_top">16dp</dimen>
     <dimen name="channels_linear_layout_style_margin_start">16dp</dimen>
     <dimen name="channels_linear_layout_style_margin_end">16dp</dimen>
