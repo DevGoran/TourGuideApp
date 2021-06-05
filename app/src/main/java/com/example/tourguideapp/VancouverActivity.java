@@ -8,7 +8,6 @@ import com.example.tourguideapp.adapter.CategoryFragmentPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-
 public class VancouverActivity extends MainActivity {
 
     @Override

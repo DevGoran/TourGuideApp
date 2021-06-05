@@ -8,20 +8,20 @@ import com.example.tourguideapp.adapter.CategoryFragmentPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-public class TorontoActivity extends MainActivity {
+public class VictoriaActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Set the content of the activity to use the activity_city.xml layout file
+        // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_city);
 
         // Find the view pager that will allow the user to swipe between fragments
         ViewPager2 viewPager = findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        CategoryFragmentPagerAdapter adapter = new CategoryFragmentPagerAdapter(TorontoActivity.this, getSupportFragmentManager(), getLifecycle());
+        CategoryFragmentPagerAdapter adapter = new CategoryFragmentPagerAdapter(VictoriaActivity.this, getSupportFragmentManager(), getLifecycle());
 
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);

@@ -5,6 +5,12 @@
     <string name="social_media">Social Media</string>
     <string name="about">About</string>
     <string name="donations">Donations</string>
+    <string name="address_copied">Address copied, thank you for considering a donation!</string>
+    <string name="eth_address">Insert Exodus Address</string>
+    <string name="btc_address">Insert Exodus Address</string>
+    <string name="xmr_address">Insert Exodus Address</string>
+    <string name="ltc_address">Insert Exodus Address</string>
+    <string name="xlm_address">Insert Exodus Address</string>
 
     <!-- Tab category strings. -->
     <string name="category_restaurants">Restaurants</string>
@@ -144,6 +150,32 @@
     <string name="st_johns_instagram_url">https://www.instagram.com/destinationstjohns/</string>
     <string name="st_johns_website_url">https://destinationstjohns.com/</string>
     <string name="st_johns_facebook_url">https://www.facebook.com/DestinationStJohns</string>
+
+    <!-- Calgary strings and introduction. -->
+    <string name="calgary">Calgary</string>
+    <string name="calgary_underline"><u>Calgary</u></string>
+    <string name="calgary_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
+    <string name="tourism_calgary">Toursim Calgary</string>
+    <string name="visit_calgary">Visit Calgary</string>
+
+    <!-- Calgary URL strings. -->
+    <string name="calgary_twitter_url">https://twitter.com/TourismCalgary</string>
+    <string name="calgary_instagram_url">https://www.instagram.com/tourismcalgary/</string>
+    <string name="calgary_website_url">https://www.visitcalgary.com/</string>
+    <string name="calgary_facebook_url">https://www.facebook.com/tourismcalgary</string>
+
+    <!-- Victoria strings and introduction. -->
+    <string name="victoria">Victoria</string>
+    <string name="victoria_underline"><u>Calgary</u></string>
+    <string name="victoria_introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa. In est ante in nibh mauris cursus mattis. Nibh venenatis cras sed felis eget. Elementum pulvinar etiam non quam lacus suspendisse. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Mauris augue neque gravida in fermentum. Nunc scelerisque viverra mauris in aliquam. Tristique senectus et netus et malesuada fames ac turpis egestas. Turpis egestas sed tempus urna et pharetra.</string>
+    <string name="tourism_victoria">Toursim Victoria</string>
+    <string name="destination_greater_victoria">Destination Greater Victoria</string>
+
+    <!-- Victoria URL strings. -->
+    <string name="victoria_twitter_url">https://twitter.com/victoriavisitor</string>
+    <string name="victoria_instagram_url">https://www.instagram.com/TourismVictoriaBC/</string>
+    <string name="victoria_website_url">https://www.tourismvictoria.com/</string>
+    <string name="victoria_facebook_url">https://www.facebook.com/tourismvictoriafan</string>
 
     <!-- PlaceholderActivitiesFragment ArrayList strings. -->
     <string name="activities_placeholder_one">Placeholder 1</string>

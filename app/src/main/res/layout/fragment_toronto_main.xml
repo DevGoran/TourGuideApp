@@ -29,7 +29,7 @@
 
         <!-- Beginning of the social media section. -->
         <TextView
-            style="@style/official_channels"
+            style="@style/social_media"
             android:text="@string/social_media" />
 
         <!-- Website. -->

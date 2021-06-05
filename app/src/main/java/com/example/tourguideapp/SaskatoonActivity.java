@@ -13,7 +13,7 @@ public class SaskatoonActivity extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Set the content of the activity to use the activity_saskatoon.xml layout file
+        // Set the content of the activity to use the activity_city.xml layout file
         setContentView(R.layout.activity_city);
 
         // Find the view pager that will allow the user to swipe between fragments

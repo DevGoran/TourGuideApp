@@ -9,23 +9,23 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingBottom="@dimen/parent_linear_layout_padding_bottom"
-        tools:context=".fragment.StJohnsMainFragment">
+        tools:context=".fragment.CalgaryMainFragment">
 
-        <!-- Photo by Erik Mclean from Pexels. License: https://www.pexels.com/license/ -->
+        <!-- Photo by Andre Furtado from Pexels. License: https://www.pexels.com/license/ -->
         <ImageView
             style="@style/city_banner_fragment"
             android:importantForAccessibility="no"
-            android:src="@drawable/st_johns_banner" />
+            android:src="@drawable/calgary_main_fragment_banner" />
 
-        <!-- St. John's header. -->
+        <!-- Calgary header. -->
         <TextView
             style="@style/city_header"
-            android:text="@string/st_johns_underline" />
+            android:text="@string/calgary_underline" />
 
-        <!-- Introduction to St. John's. -->
+        <!-- Introduction to Calgary. -->
         <TextView
             style="@style/city_description_style"
-            android:text="@string/st_johns_introduction" />
+            android:text="@string/calgary_introduction" />
 
         <!-- Beginning of the social media section. -->
         <TextView
@@ -34,7 +34,7 @@
 
         <!-- Website. -->
         <LinearLayout
-            android:id="@+id/website_st_johns_linear_view"
+            android:id="@+id/website_calgary_linear_view"
             style="@style/channels_linear_layout_style"
             tools:ignore="UseCompoundDrawables">
 
@@ -45,12 +45,12 @@
 
             <TextView
                 style="@style/channels_textview_style"
-                android:text="@string/destination_st_johns" />
+                android:text="@string/visit_calgary" />
         </LinearLayout>
 
         <!-- Twitter. -->
         <LinearLayout
-            android:id="@+id/twitter_st_johns_linear_view"
+            android:id="@+id/twitter_calgary_linear_view"
             style="@style/channels_linear_layout_style"
             tools:ignore="UseCompoundDrawables">
 
@@ -61,12 +61,12 @@
 
             <TextView
                 style="@style/channels_textview_style"
-                android:text="@string/destination_st_johns" />
+                android:text="@string/tourism_calgary" />
         </LinearLayout>
 
         <!-- Instagram. -->
         <LinearLayout
-            android:id="@+id/instagram_st_johns_linear_view"
+            android:id="@+id/instagram_calgary_linear_view"
             style="@style/channels_linear_layout_style"
             tools:ignore="UseCompoundDrawables">
 
@@ -77,12 +77,12 @@
 
             <TextView
                 style="@style/channels_textview_style"
-                android:text="@string/destination_st_johns" />
+                android:text="@string/tourism_calgary" />
         </LinearLayout>
 
         <!-- Facebook. -->
         <LinearLayout
-            android:id="@+id/facebook_st_johns_linear_view"
+            android:id="@+id/facebook_calgary_linear_view"
             style="@style/channels_linear_layout_style"
             tools:ignore="UseCompoundDrawables">
 
@@ -93,7 +93,7 @@
 
             <TextView
                 style="@style/channels_textview_style"
-                android:text="@string/destination_st_johns" />
+                android:text="@string/tourism_calgary" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
