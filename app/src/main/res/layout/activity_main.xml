@@ -20,7 +20,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/vancouver_banner_main"
+            app:srcCompat="@drawable/vancouver_main_banner"
             tools:ignore="ContentDescription" />
 
         <!--Photo by Sarath SunilDutt from Pexels. License: https://www.pexels.com/license/ -->
@@ -30,17 +30,17 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/vancouver_banner"
-            app:srcCompat="@drawable/saskatoon_banner"
+            app:srcCompat="@drawable/saskatoon_main_banner"
             tools:ignore="ContentDescription" />
 
-        <!--Photo by Designecologist from Pexels. License: https://www.pexels.com/license/ -->
+        <!--Photo by Burst from Pexels. License: https://www.pexels.com/license/ -->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/toronto_banner"
             style="@style/main_banner_style"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/saskatoon_banner"
-            app:srcCompat="@drawable/toronto_banner"
+            app:srcCompat="@drawable/toronto_main_banner"
             tools:ignore="ContentDescription" />
 
         <!--Photo by Erik Mclean from Pexels. License: https://www.pexels.com/license/ -->
@@ -50,7 +50,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/toronto_banner"
-            app:srcCompat="@drawable/st_johns_banner"
+            app:srcCompat="@drawable/st_johns_main_banner"
             tools:ignore="ContentDescription" />
 
         <!--Photo by Goran Vlacic (myself). -->
@@ -61,7 +61,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/st_johns_banner"
-            app:srcCompat="@drawable/calgary_main_fragment_banner"
+            app:srcCompat="@drawable/calgary_main_banner"
             tools:ignore="ContentDescription" />
 
         <!--Photo by Goran Vlacic (myself). -->
@@ -72,7 +72,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/calgary_banner"
-            app:srcCompat="@drawable/victoria_banner_main"
+            app:srcCompat="@drawable/victoria_main_banner"
             tools:ignore="ContentDescription" />
 
         <!--Donations. -->
@@ -107,7 +107,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/donations_text_view"
-                android:layout_marginTop="@dimen/donation_icon_linear_margin_top_port"
                 android:layout_marginEnd="@dimen/donation_icon_linear_margin_end"
                 android:background="@color/translucent"
                 android:orientation="horizontal">

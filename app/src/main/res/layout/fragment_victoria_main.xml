@@ -15,7 +15,7 @@
         <ImageView
             style="@style/city_banner_fragment"
             android:importantForAccessibility="no"
-            android:src="@drawable/victoria_banner_main" />
+            android:src="@drawable/victoria__main_fragment_banner" />
 
         <!-- Introduction to Victoria. -->
         <TextView

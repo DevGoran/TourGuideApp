@@ -15,7 +15,7 @@
         <ImageView
             style="@style/city_banner_fragment"
             android:importantForAccessibility="no"
-            android:src="@drawable/st_johns_banner" />
+            android:src="@drawable/st_johns_main_fragment_banner" />
 
         <!-- Introduction to St. John's. -->
         <TextView
