@@ -62,7 +62,7 @@ public class CategoryFragmentPagerAdapter extends FragmentStateAdapter {
 
         // Check which Activity is using the ViewHolder and return the appropriate Fragments.
         switch (className) {
-            case "VancouverActivity":
+            case "VancouverPlacesActivity":
                 if (position == 0) {
                     return new VancouverMainFragment();
                 } else if (position == 1) {
@@ -74,7 +74,7 @@ public class CategoryFragmentPagerAdapter extends FragmentStateAdapter {
                 } else {
                     return new VancouverActivitiesFragment();
                 }
-            case "SaskatoonActivity":
+            case "SaskatoonPlacesActivity":
                 if (position == 0) {
                     return new SaskatoonMainFragment();
                 } else if (position == 1) {
@@ -86,7 +86,7 @@ public class CategoryFragmentPagerAdapter extends FragmentStateAdapter {
                 } else {
                     return new SaskatoonActivitiesFragment();
                 }
-            case "TorontoActivity":
+            case "TorontoPlacesActivity":
                 if (position == 0) {
                     return new TorontoMainFragment();
                 } else if (position == 1) {
@@ -98,7 +98,7 @@ public class CategoryFragmentPagerAdapter extends FragmentStateAdapter {
                 } else {
                     return new TorontoActivitiesFragment();
                 }
-            case "StJohnsActivity":
+            case "StJohnsPlacesActivity":
                 if (position == 0) {
                     return new StJohnsMainFragment();
                 } else if (position == 1) {
@@ -110,7 +110,7 @@ public class CategoryFragmentPagerAdapter extends FragmentStateAdapter {
                 } else {
                     return new StJohnsActivitiesFragment();
                 }
-            case "CalgaryActivity":
+            case "CalgaryPlacesActivity":
                 if (position == 0) {
                     return new CalgaryMainFragment();
                 } else if (position == 1) {
@@ -122,7 +122,7 @@ public class CategoryFragmentPagerAdapter extends FragmentStateAdapter {
                 } else {
                     return new CalgaryActivitiesFragment();
                 }
-            case "VictoriaActivity":
+            case "VictoriaPlacesActivity":
                 if (position == 0) {
                     return new VictoriaMainFragment();
                 } else if (position == 1) {

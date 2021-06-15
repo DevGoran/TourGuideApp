@@ -8,7 +8,7 @@ import com.example.tourguideapp.adapter.CategoryFragmentPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-public class StJohnsActivity extends MainActivity {
+public class VictoriaPlacesActivity extends MainPlacesActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class StJohnsActivity extends MainActivity {
         ViewPager2 viewPager = findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        CategoryFragmentPagerAdapter adapter = new CategoryFragmentPagerAdapter(StJohnsActivity.this, getSupportFragmentManager(), getLifecycle());
+        CategoryFragmentPagerAdapter adapter = new CategoryFragmentPagerAdapter(VictoriaPlacesActivity.this, getSupportFragmentManager(), getLifecycle());
 
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);

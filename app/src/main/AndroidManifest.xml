@@ -18,42 +18,56 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".VancouverActivity"
+            android:name=".MainTripsActivity"
+            android:label="@string/trips">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainPlacesActivity"
+            android:label="@string/places">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VancouverPlacesActivity"
             android:label="@string/vancouver">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".SaskatoonActivity"
+            android:name=".SaskatoonPlacesActivity"
             android:label="@string/saskatoon">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".TorontoActivity"
+            android:name=".TorontoPlacesActivity"
             android:label="@string/toronto">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".StJohnsActivity"
+            android:name=".StJohnsPlacesActivity"
             android:label="@string/st_johns">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".CalgaryActivity"
+            android:name=".CalgaryPlacesActivity"
             android:label="@string/calgary">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".VictoriaActivity"
+            android:name=".VictoriaPlacesActivity"
             android:label="@string/victoria">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

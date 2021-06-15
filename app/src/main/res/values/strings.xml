@@ -1,10 +1,12 @@
 <resources>
     <!-- General app wide strings. -->
-    <string name="app_name">Tour Guide App</string>
+    <string name="app_name">Visit Canada Guide</string>
     <string name="toast_message_fragments">Imagine this would open a website or another activity! :)</string>
     <string name="social_media">Social Media</string>
     <string name="about">About</string>
+    <string name="trips">Trips</string>
     <string name="donations">Donations</string>
+    <string name="places">Places</string>
     <string name="address_copied">Address copied, thank you for considering a donation!</string>
     <string name="eth_address">ETH Exodus Address</string>
     <string name="btc_address">BTC Exodus Address</string>

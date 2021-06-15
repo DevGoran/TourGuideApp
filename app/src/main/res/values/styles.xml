@@ -92,7 +92,7 @@
         <item name="cornerSize">10dp</item>
     </style>
 
-    <!-- Style for icons of donations part in MainActivity. -->
+    <!-- Style for icons of donations part in MainPlacesActivity. -->
     <style name="donations_icons_style">
         <item name="android:layout_width">@dimen/donation_icon_width</item>
         <item name="android:layout_weight">1</item>
@@ -101,5 +101,16 @@
         <item name="android:background">#00FFFFFF</item>
         <item name="android:maxHeight">@dimen/donation_icon_max_size</item>
         <item name="android:maxWidth">@dimen/donation_icon_max_size</item>
+    </style>
+
+    <!-- Style for ImageViews in MainActivity. -->
+    <style name="main_activity_picker_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/main_activity_text_view_height</item>
+        <item name="fontFamily">@font/agencyb</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:letterSpacing">@dimen/main_activity_text_view_letter_spacing</item>
+        <item name="android:textSize">@dimen/main_activity_text_view_size</item>
     </style>
 </resources>

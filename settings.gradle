@@ -1,2 +1,2 @@
-rootProject.name = "Tour Guide App"
+rootProject.name = "Visit Canada Guide"
 include ':app'

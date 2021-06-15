@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_layout_margin_padding"
+        android:layout_marginEnd="@dimen/main_layout_margin_padding"
+        android:paddingBottom="@dimen/main_layout_margin_padding"
+        tools:context=".MainPlacesActivity">
+
+        <!-- Photo by Goran Vlacic (myself) -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/vancouver_banner"
+            style="@style/main_banner_land_style"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vancouver_main_banner"
+            tools:ignore="ContentDescription" />
+
+        <!--Photo by Sarath SunilDutt from Pexels. License: https://www.pexels.com/license/ -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/saskatoon_banner"
+            style="@style/main_banner_land_style"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/vancouver_banner"
+            app:srcCompat="@drawable/saskatoon_main_banner"
+            tools:ignore="ContentDescription" />
+
+        <!--Photo by Designecologist from Pexels. License: https://www.pexels.com/license/ -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/toronto_banner"
+            style="@style/main_banner_land_style"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/saskatoon_banner"
+            app:srcCompat="@drawable/toronto_main_banner"
+            tools:ignore="ContentDescription" />
+
+        <!--Photo by Erik Mclean from Pexels. License: https://www.pexels.com/license/ -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/st_johns_banner"
+            style="@style/main_banner_land_style"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toronto_banner"
+            app:srcCompat="@drawable/st_johns_main_banner"
+            tools:ignore="ContentDescription" />
+
+        <!--Photo by Goran Vlacic (myself). -->
+        <!--ImageView just for design purposes. -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/calgary_banner"
+            style="@style/main_banner_land_style"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/st_johns_banner"
+            app:srcCompat="@drawable/calgary_main_fragment_banner"
+            tools:ignore="ContentDescription" />
+
+        <!--Photo by Goran Vlacic (myself). -->
+        <!--ImageView just for design purposes. -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/victoria_banner"
+            style="@style/main_banner_land_style"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/calgary_banner"
+            app:srcCompat="@drawable/victoria_main_banner"
+            tools:ignore="ContentDescription" />
+
+        <!--Donations. -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/donations_height_land"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/victoria_banner">
+
+            <!--Donations background. -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/donations_background"
+                style="@style/main_banner_land_style"
+                android:background="@color/donations_background" />
+
+            <!--Donations TextView. -->
+            <TextView
+                android:id="@+id/donations_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/donation_icon_text_view_margin_start"
+                android:layout_marginTop="@dimen/donation_icon_text_view_margin_top"
+                android:background="@color/translucent"
+                android:fontFamily="@font/agencyr"
+                android:text="@string/donations"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/donation_icon_text_view_text_size" />
+
+            <!--Donations ViewGroup for icons. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/donations_text_view"
+                android:layout_marginTop="@dimen/donation_icon_linear_margin_top_land"
+                android:layout_marginEnd="@dimen/donation_icon_linear_margin_end"
+                android:background="@color/translucent"
+                android:orientation="horizontal">
+
+                <!--ETH. -->
+                <ImageView
+                    android:id="@+id/ethereum"
+                    style="@style/donations_icons_style"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic__84_etherum" />
+
+                <!--BTC. -->
+                <ImageView
+                    android:id="@+id/bitcoin"
+                    style="@style/donations_icons_style"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic__93_bitcoin" />
+
+                <!--XMR. -->
+                <ImageView
+                    android:id="@+id/monero"
+                    style="@style/donations_icons_style"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic__60_monero" />
+
+                <!--LTC. -->
+                <ImageView
+                    android:id="@+id/litecoin"
+                    style="@style/donations_icons_style"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic__18_litecoin" />
+
+                <!--XLM. -->
+                <ImageView
+                    android:id="@+id/stellar"
+                    style="@style/donations_icons_style"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic__17_stellar_coin" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
