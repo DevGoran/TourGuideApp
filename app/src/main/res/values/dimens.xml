@@ -55,5 +55,5 @@
     <dimen name="donation_icon_text_view_margin_top">30dp</dimen>
     <dimen name="donation_icon_text_view_text_size">28sp</dimen>
     <dimen name="donations_height_land">200dp</dimen>
-    <dimen name="donations_height_port">150dp</dimen>
+    <dimen name="donations_height_port">90dp</dimen>
 </resources>

@@ -14,8 +14,8 @@ public class TorontoPlacesActivity extends MainPlacesActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Set the content of the activity to use the activity_city.xml layout file
-        setContentView(R.layout.activity_city);
+        // Set the content of the activity to use the activity_place.xml layout file
+        setContentView(R.layout.activity_place);
 
         // Find the view pager that will allow the user to swipe between fragments
         ViewPager2 viewPager = findViewById(R.id.viewpager);

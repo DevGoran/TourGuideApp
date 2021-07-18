@@ -13,7 +13,7 @@ public class MainPlacesActivity extends MainActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_city_main);
+        setContentView(R.layout.activity_place_main);
 
         ImageView vancouverBanner = findViewById(R.id.vancouver_banner);
         // The code in this method will be executed when Vancouver is clicked on.

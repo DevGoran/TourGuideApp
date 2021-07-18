@@ -87,25 +87,11 @@
                 android:id="@+id/donations_background"
                 style="@style/main_banner_land_style"
                 android:background="@color/donations_background" />
-
-            <!--Donations TextView. -->
-            <TextView
-                android:id="@+id/donations_text_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/donation_icon_text_view_margin_start"
-                android:layout_marginTop="@dimen/donation_icon_text_view_margin_top"
-                android:background="@color/translucent"
-                android:fontFamily="@font/agencyr"
-                android:text="@string/donations"
-                android:textColor="@android:color/holo_red_light"
-                android:textSize="@dimen/donation_icon_text_view_text_size" />
-
             <!--Donations ViewGroup for icons. -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/donations_text_view"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="@dimen/donation_icon_linear_margin_end"
                 android:background="@color/translucent"
                 android:orientation="horizontal">
