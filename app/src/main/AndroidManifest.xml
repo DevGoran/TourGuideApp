@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TourGuideApp"
         tools:ignore="AllowBackup">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,56 +20,64 @@
         </activity>
         <activity
             android:name=".MainTripsActivity"
-            android:label="@string/trips">
+            android:label="@string/trips"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainPlacesActivity"
-            android:label="@string/places">
+            android:label="@string/places"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".VancouverPlacesActivity"
-            android:label="@string/vancouver">
+            android:label="@string/vancouver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".SaskatoonPlacesActivity"
-            android:label="@string/saskatoon">
+            android:label="@string/saskatoon"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".TorontoPlacesActivity"
-            android:label="@string/toronto">
+            android:label="@string/toronto"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".StJohnsPlacesActivity"
-            android:label="@string/st_johns">
+            android:label="@string/st_johns"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".CalgaryPlacesActivity"
-            android:label="@string/calgary">
+            android:label="@string/calgary"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".VictoriaPlacesActivity"
-            android:label="@string/victoria">
+            android:label="@string/victoria"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -77,5 +86,4 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-
 </manifest>
