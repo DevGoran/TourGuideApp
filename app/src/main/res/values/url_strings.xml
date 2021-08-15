@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="frankies_url">https://www.frankiesitaliankitchen.ca/</string>
+    <string name="boston_pizza_url">https://bostonpizza.com/en/locations.html</string>
+    <string name="joey_burrard_url">https://joeyrestaurants.com/location/joey-burrard</string>
+    <string name="italian_kitchen_url">https://glowbalgroup.com/italiankitchen/</string>
+    <string name="devils_elbow_url">https://www.devilselbowalehouse.com/</string>
+    <string name="patron_tacos_url">https://www.patrontc.com/</string>
+    <string name="ignite_pizza_url">https://ignitepizzeria.com/</string>
+    <string name="vancouver_lookout_url">https://www.topofvancouver.com/</string>
+    <string name="joey_bentall_one_url">https://joeyrestaurants.com/location/joey-bentall-one</string>
+    <string name="le_petit_belge_url">https://lepetitbelge.ca/</string>
+</resources>

@@ -21,16 +21,22 @@ public class CityCategoryItem {
     private final int mInfo;
 
     /**
+     * Resource ID for the location of each recommendation.
+     */
+    private final int mUrl;
+
+    /**
      * Create a new CityCategoryItem object.
      *
      * @param iconResourceId is the icon for each item that shows to which category it belongs.
      * @param title          is the string resource Id for the upper TextView of each item.
      * @param info           is the string resource Id for the lower TextView of each item.
      */
-    public CityCategoryItem(int iconResourceId, int title, int info) {
+    public CityCategoryItem(int iconResourceId, int title, int info, int url) {
         mIconResourceId = iconResourceId;
         mTitle = title;
         mInfo = info;
+        mUrl = url;
     }
 
     /**
@@ -52,5 +58,12 @@ public class CityCategoryItem {
      */
     public int getInfoId() {
         return mInfo;
+    }
+
+    /**
+     * Get the string resource ID for the location of each item.
+     */
+    public int getUrl() {
+        return mUrl;
     }
 }
