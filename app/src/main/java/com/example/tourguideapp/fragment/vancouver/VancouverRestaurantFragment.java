@@ -1,5 +1,7 @@
 package com.example.tourguideapp.fragment.vancouver;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -55,11 +57,13 @@ public class VancouverRestaurantFragment extends Fragment {
         // {@link ListView} will display list items for each {@link CityCategoryItem} in the list.
         listView.setAdapter(adapter);
 
-        // onItemClickListener with "dummy" code inside -> "Imagine this would open a website or another activity! :)"
-        listView.setOnItemClickListener((parent, view, position, id) ->
-                Toast.makeText(getActivity(), getString(R.string.toast_message_fragments), Toast.LENGTH_SHORT).show()
-
-        );
+        // onItemClickListener opens a website on click.
+        listView.setOnItemClickListener((parent, view, position, id) -> {
+            String url = categories.get(position).toString();
+            Intent openWebsite = new Intent(Intent.ACTION_VIEW);
+            openWebsite.setData(Uri.parse(url));
+            startActivity(openWebsite);
+        });
 
         // Inflate the layout for this fragment.
         return rootView;

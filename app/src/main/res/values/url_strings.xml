@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="frankies_url">https://www.frankiesitaliankitchen.ca/</string>
     <string name="boston_pizza_url">https://bostonpizza.com/en/locations.html</string>
     <string name="joey_burrard_url">https://joeyrestaurants.com/location/joey-burrard</string>
@@ -10,4 +10,11 @@
     <string name="vancouver_lookout_url">https://www.topofvancouver.com/</string>
     <string name="joey_bentall_one_url">https://joeyrestaurants.com/location/joey-bentall-one</string>
     <string name="le_petit_belge_url">https://lepetitbelge.ca/</string>
+    <string name="pcr_url">https://www.pacificcoffeeroasters.com/</string>
+    <string name="starbucks_url">https://www.starbucks.ca/</string>
+    <string name="blenz_url">https://blenz.com/</string>
+    <string name="waves_url">https://wavescoffee.com/locations</string>
+    <string name="jj_bean_url">https://jjbeancoffee.com/</string>
+    <string name="tim_hortons_url" tools:ignore="TypographyDashes">https://www.timhortons.com/store-locator/store/102467/1055-west-georgia-st-unit-116--vancouver--british-columbia--v6e-3p1</string>
+    <string name="trees_organic_coffee_url">https://treescoffee.com/</string>
 </resources>

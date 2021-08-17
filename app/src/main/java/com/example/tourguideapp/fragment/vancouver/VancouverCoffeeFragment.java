@@ -31,13 +31,13 @@ public class VancouverCoffeeFragment extends Fragment {
 
         // Create a list of CityCategoryItem's
         ArrayList<CityCategoryItem> categories = new ArrayList<>();
-        categories.add(new CityCategoryItem(R.drawable.ic_black_tea, R.string.pcr, R.string.pcr_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.starbucks, R.string.starbucks_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.blenz_coffe, R.string.blenz_coffe_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.waves_coffee, R.string.waves_coffee_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.jj_bean, R.string.jj_bean_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.tim_hortons, R.string.tim_hortons_info));
-        categories.add(new CityCategoryItem(R.drawable.ic_black_tea, R.string.trees_organic_coffee, R.string.trees_organic_coffee_info));
+        categories.add(new CityCategoryItem(R.drawable.ic_black_tea, R.string.pcr, R.string.pcr_info, R.string.pcr_url));
+        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.starbucks, R.string.starbucks_info, R.string.starbucks_url));
+        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.blenz_coffe, R.string.blenz_coffe_info, R.string.blenz_url));
+        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.waves_coffee, R.string.waves_coffee_info, R.string.waves_url));
+        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.jj_bean, R.string.jj_bean_info, R.string.jj_bean_url));
+        categories.add(new CityCategoryItem(R.drawable.ic_coffee, R.string.tim_hortons, R.string.tim_hortons_info, R.string.tim_hortons_url));
+        categories.add(new CityCategoryItem(R.drawable.ic_black_tea, R.string.trees_organic_coffee, R.string.trees_organic_coffee_info, R.string.trees_organic_coffee_url));
 
         // Create an {@link CityCategoryItemAdapter}, whose data source is a list of {@link CityCategoryItem}s. The
         // adapter knows how to create list items for each item in the list.
