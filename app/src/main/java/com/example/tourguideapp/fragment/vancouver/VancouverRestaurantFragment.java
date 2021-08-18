@@ -33,16 +33,16 @@ public class VancouverRestaurantFragment extends Fragment {
 
         // Create a list of CityCategoryItem's
         ArrayList<CityCategoryItem> categories = new ArrayList<>();
-        categories.add(new CityCategoryItem(R.drawable.ic_spaghetti, R.string.frankies_italian_kitchen, R.string.frankies_italian_kitchen_info, R.string.frankies_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_pizza, R.string.boston_pizza, R.string.boston_pizza_info, R.string.boston_pizza_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.joey_burrard, R.string.joey_burrard_info, R.string.joey_burrard_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_spaghetti, R.string.italian_kitchen, R.string.italian_kitchen_info, R.string.italian_kitchen_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_meat, R.string.devils_elbow, R.string.devils_elbow_info, R.string.devils_elbow_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_taco, R.string.patron_tacos_cantina, R.string.patron_tacos_cantina_info, R.string.patron_tacos_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_pizza, R.string.ignite_pizza, R.string.ignite_pizza_info, R.string.ignite_pizza_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.vancouver_lookout, R.string.vancouver_lookout_info, R.string.vancouver_lookout_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.joey_bentall_one, R.string.joey_bentall_one_info, R.string.joey_bentall_one_url));
-        categories.add(new CityCategoryItem(R.drawable.ic_waffle, R.string.le_petit_belge, R.string.le_petit_belge_info, R.string.le_petit_belge_url));
+        categories.add(new CityCategoryItem(R.drawable.ic_spaghetti, R.string.frankies_italian_kitchen, R.string.frankies_italian_kitchen_info, getString(R.string.frankies_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_pizza, R.string.boston_pizza, R.string.boston_pizza_info, getString(R.string.boston_pizza_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.joey_burrard, R.string.joey_burrard_info, getString(R.string.joey_burrard_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_spaghetti, R.string.italian_kitchen, R.string.italian_kitchen_info, getString(R.string.italian_kitchen_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_meat, R.string.devils_elbow, R.string.devils_elbow_info, getString(R.string.devils_elbow_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_taco, R.string.patron_tacos_cantina, R.string.patron_tacos_cantina_info, getString(R.string.patron_tacos_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_pizza, R.string.ignite_pizza, R.string.ignite_pizza_info, getString(R.string.ignite_pizza_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.vancouver_lookout, R.string.vancouver_lookout_info, getString(R.string.vancouver_lookout_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.joey_bentall_one, R.string.joey_bentall_one_info, getString(R.string.joey_bentall_one_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_waffle, R.string.le_petit_belge, R.string.le_petit_belge_info, getString(R.string.le_petit_belge_url)));
 
         // Create an {@link CityCategoryItemAdapter}, whose data source is a list of {@link CityCategoryItem}s. The
         // adapter knows how to create list items for each item in the list.
@@ -59,9 +59,9 @@ public class VancouverRestaurantFragment extends Fragment {
 
         // onItemClickListener opens a website on click.
         listView.setOnItemClickListener((parent, view, position, id) -> {
-            String url = categories.get(position).toString();
+            CityCategoryItem currentItem = adapter.getItem(position);
             Intent openWebsite = new Intent(Intent.ACTION_VIEW);
-            openWebsite.setData(Uri.parse(url));
+            openWebsite.setData(Uri.parse(currentItem.getUrl()));
             startActivity(openWebsite);
         });
 
