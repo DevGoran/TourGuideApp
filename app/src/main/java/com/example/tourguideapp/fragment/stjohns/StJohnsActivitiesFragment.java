@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
@@ -55,9 +54,6 @@ public class StJohnsActivitiesFragment extends Fragment {
         // Make the {@link ListView} use the {@link CityCategoryItemAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link CityCategoryItem} in the list.
         listView.setAdapter(adapter);
-
-        // onItemClickListener with "dummy" code inside -> "Imagine this would open a website or another activity! :)"
-        listView.setOnItemClickListener((parent, view, position, id) -> Toast.makeText(getActivity(), getString(R.string.toast_message_fragments), Toast.LENGTH_SHORT).show());
 
         // Inflate the layout for this fragment.
         return rootView;

@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
@@ -40,7 +39,7 @@ public class VancouverRestaurantFragment extends Fragment {
         categories.add(new CityCategoryItem(R.drawable.ic_meat, R.string.devils_elbow, R.string.devils_elbow_info, getString(R.string.devils_elbow_url)));
         categories.add(new CityCategoryItem(R.drawable.ic_taco, R.string.patron_tacos_cantina, R.string.patron_tacos_cantina_info, getString(R.string.patron_tacos_url)));
         categories.add(new CityCategoryItem(R.drawable.ic_pizza, R.string.ignite_pizza, R.string.ignite_pizza_info, getString(R.string.ignite_pizza_url)));
-        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.vancouver_lookout, R.string.vancouver_lookout_info, getString(R.string.vancouver_lookout_url)));
+        categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.vancouver_lookout, R.string.vancouver_lookout_info, getString(R.string.vancouver_lookout_revolving_url)));
         categories.add(new CityCategoryItem(R.drawable.ic_cutlery, R.string.joey_bentall_one, R.string.joey_bentall_one_info, getString(R.string.joey_bentall_one_url)));
         categories.add(new CityCategoryItem(R.drawable.ic_waffle, R.string.le_petit_belge, R.string.le_petit_belge_info, getString(R.string.le_petit_belge_url)));
 

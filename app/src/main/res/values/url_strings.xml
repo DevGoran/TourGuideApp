@@ -7,7 +7,7 @@
     <string name="devils_elbow_url">https://www.devilselbowalehouse.com/</string>
     <string name="patron_tacos_url">https://www.patrontc.com/</string>
     <string name="ignite_pizza_url">https://ignitepizzeria.com/</string>
-    <string name="vancouver_lookout_url">https://www.topofvancouver.com/</string>
+    <string name="vancouver_lookout_revolving_url">https://www.topofvancouver.com/</string>
     <string name="joey_bentall_one_url">https://joeyrestaurants.com/location/joey-bentall-one</string>
     <string name="le_petit_belge_url">https://lepetitbelge.ca/</string>
     <string name="pcr_url">https://www.pacificcoffeeroasters.com/</string>
@@ -17,4 +17,14 @@
     <string name="jj_bean_url">https://jjbeancoffee.com/</string>
     <string name="tim_hortons_url" tools:ignore="TypographyDashes">https://www.timhortons.com/store-locator/store/102467/1055-west-georgia-st-unit-116--vancouver--british-columbia--v6e-3p1</string>
     <string name="trees_organic_coffee_url">https://treescoffee.com/</string>
+    <string name="robson_square_url">https://vancouversbestplaces.com/city-of-vancouver/robson-square/</string>
+    <string name="granville_street_url">https://www.destinationvancouver.com/vancouver/neighbourhoods/granville-street/</string>
+    <string name="gastown_url">https://gastown.org/</string>
+    <string name="vancouver_lookout_url">https://vancouverlookout.com/</string>
+    <string name="canada_place_url">https://www.canadaplace.ca/</string>
+    <string name="totem_poles_url">https://vancouver.ca/parks-recreation-culture/totems-and-first-nations-art.aspx</string>
+    <string name="vancouver_seawall_url">https://vancouver.ca/parks-recreation-culture/seawall.aspx</string>
+    <string name="robson_street_url">https://robsonstreet.ca/</string>
+    <string name="rogers_arena_url">https://rogersarena.com/</string>
+    <string name="marine_building_url">https://forbiddenvancouver.ca/blog/the-marine-building/</string>
 </resources>
