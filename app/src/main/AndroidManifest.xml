@@ -43,30 +43,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SaskatoonPlacesActivity"
-            android:label="@string/saskatoon"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".TorontoPlacesActivity"
-            android:label="@string/toronto"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".StJohnsPlacesActivity"
-            android:label="@string/st_johns"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".CalgaryPlacesActivity"
             android:label="@string/calgary"
             android:exported="false">

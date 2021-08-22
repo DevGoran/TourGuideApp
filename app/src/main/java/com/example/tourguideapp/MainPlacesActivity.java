@@ -25,36 +25,6 @@ public class MainPlacesActivity extends MainActivity {
             startActivity(vancouverIntent);
         });
 
-        ImageView torontoBanner = findViewById(R.id.toronto_banner);
-        // The code in this method will be executed when Toronto is clicked on.
-        torontoBanner.setOnClickListener(view -> {
-            // Create a new intent to open the {@link TorontoPlacesActivity}
-            Intent saskatoonIntent = new Intent(MainPlacesActivity.this, TorontoPlacesActivity.class);
-
-            // Start the new activity
-            startActivity(saskatoonIntent);
-        });
-
-        ImageView saskatoonBanner = findViewById(R.id.saskatoon_banner);
-        // The code in this method will be executed when Saskatoon is clicked on.
-        saskatoonBanner.setOnClickListener(view -> {
-            // Create a new intent to open the {@link SaskatoonPlacesActivity}
-            Intent saskatoonIntent = new Intent(MainPlacesActivity.this, SaskatoonPlacesActivity.class);
-
-            // Start the new activity
-            startActivity(saskatoonIntent);
-        });
-
-        ImageView stJohnsBanner = findViewById(R.id.st_johns_banner);
-        // The code in this method will be executed when St. Johns is clicked on.
-        stJohnsBanner.setOnClickListener(view -> {
-            // Create a new intent to open the {@link SaskatoonPlacesActivity}
-            Intent stJohnsIntent = new Intent(MainPlacesActivity.this, StJohnsPlacesActivity.class);
-
-            // Start the new activity
-            startActivity(stJohnsIntent);
-        });
-
         ImageView calgaryBanner = findViewById(R.id.calgary_banner);
         // The code in this method will be executed when Calgary is clicked on.
         calgaryBanner.setOnClickListener(view -> {

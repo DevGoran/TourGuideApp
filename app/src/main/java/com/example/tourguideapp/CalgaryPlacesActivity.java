@@ -31,7 +31,7 @@ public class CalgaryPlacesActivity extends MainPlacesActivity {
 
         // Connect the tab layout with the view pager and set the tab names.
         new TabLayoutMediator(tabLayout, viewPager, (tab, position) -> {
-            if(position == 0)
+            if (position == 0)
                 tab.setText(getString(R.string.about));
             else if (position == 1)
                 tab.setText(getString(R.string.category_attractions));

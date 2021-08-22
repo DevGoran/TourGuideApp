@@ -13,21 +13,6 @@ import com.example.tourguideapp.fragment.calgary.CalgaryAttractionsFragment;
 import com.example.tourguideapp.fragment.calgary.CalgaryCoffeeFragment;
 import com.example.tourguideapp.fragment.calgary.CalgaryMainFragment;
 import com.example.tourguideapp.fragment.calgary.CalgaryRestaurantFragment;
-import com.example.tourguideapp.fragment.saskatoon.SaskatoonActivitiesFragment;
-import com.example.tourguideapp.fragment.saskatoon.SaskatoonAttractionsFragment;
-import com.example.tourguideapp.fragment.saskatoon.SaskatoonCoffeeFragment;
-import com.example.tourguideapp.fragment.saskatoon.SaskatoonMainFragment;
-import com.example.tourguideapp.fragment.saskatoon.SaskatoonRestaurantFragment;
-import com.example.tourguideapp.fragment.stjohns.StJohnsActivitiesFragment;
-import com.example.tourguideapp.fragment.stjohns.StJohnsAttractionsFragment;
-import com.example.tourguideapp.fragment.stjohns.StJohnsCoffeeFragment;
-import com.example.tourguideapp.fragment.stjohns.StJohnsMainFragment;
-import com.example.tourguideapp.fragment.stjohns.StJohnsRestaurantFragment;
-import com.example.tourguideapp.fragment.toronto.TorontoActivitiesFragment;
-import com.example.tourguideapp.fragment.toronto.TorontoAttractionsFragment;
-import com.example.tourguideapp.fragment.toronto.TorontoCoffeeFragment;
-import com.example.tourguideapp.fragment.toronto.TorontoMainFragment;
-import com.example.tourguideapp.fragment.toronto.TorontoRestaurantFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverActivitiesFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverAttractionsFragment;
 import com.example.tourguideapp.fragment.vancouver.VancouverCoffeeFragment;
@@ -73,42 +58,6 @@ public class CategoryFragmentPagerAdapter extends FragmentStateAdapter {
                     return new VancouverRestaurantFragment();
                 } else {
                     return new VancouverActivitiesFragment();
-                }
-            case "SaskatoonPlacesActivity":
-                if (position == 0) {
-                    return new SaskatoonMainFragment();
-                } else if (position == 1) {
-                    return new SaskatoonAttractionsFragment();
-                } else if (position == 2) {
-                    return new SaskatoonCoffeeFragment();
-                } else if (position == 3) {
-                    return new SaskatoonRestaurantFragment();
-                } else {
-                    return new SaskatoonActivitiesFragment();
-                }
-            case "TorontoPlacesActivity":
-                if (position == 0) {
-                    return new TorontoMainFragment();
-                } else if (position == 1) {
-                    return new TorontoAttractionsFragment();
-                } else if (position == 2) {
-                    return new TorontoCoffeeFragment();
-                } else if (position == 3) {
-                    return new TorontoRestaurantFragment();
-                } else {
-                    return new TorontoActivitiesFragment();
-                }
-            case "StJohnsPlacesActivity":
-                if (position == 0) {
-                    return new StJohnsMainFragment();
-                } else if (position == 1) {
-                    return new StJohnsAttractionsFragment();
-                } else if (position == 2) {
-                    return new StJohnsCoffeeFragment();
-                } else if (position == 3) {
-                    return new StJohnsRestaurantFragment();
-                } else {
-                    return new StJohnsActivitiesFragment();
                 }
             case "CalgaryPlacesActivity":
                 if (position == 0) {
